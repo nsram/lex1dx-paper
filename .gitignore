@@ -14,8 +14,8 @@ packs/**/R-lib/
 packs/**/__pycache__/
 packs/**/out/
 packs/**/work/
-out/
-work/
+/out/
+/work/
 
 # Python and OS clutter
 __pycache__/

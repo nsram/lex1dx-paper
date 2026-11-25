@@ -1,0 +1,2 @@
+section,dataset,path,n,d,k,method,status,sse,sse_exact,ree,n_centers,elapsed_s,driver_s,peak_rss_bytes,peak_rss_mib,timeout_s,error
+ties,ties_d20,work/ties_d20_n10000.txt,10000,20,40,wilber-binary,timeout,,1.0478047928744996e-23,,,300.0,,,,300,killed after 300s

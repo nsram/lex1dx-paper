@@ -1,0 +1,2 @@
+section,dataset,path,n,d,k,method,status,sse,sse_exact,ree,n_centers,elapsed_s,driver_s,peak_rss_bytes,peak_rss_mib,timeout_s,error
+sim,lognormal,work/lognormal_n65536.txt,65536,65536,512,lex_hybrid_M4096,ok,2.009281523353084,2.008948583769839,0.00016572827494690657,,0.05,,15368192,14.65625,300,

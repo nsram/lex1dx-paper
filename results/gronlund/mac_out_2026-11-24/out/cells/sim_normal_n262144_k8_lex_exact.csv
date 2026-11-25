@@ -1,0 +1,2 @@
+section,dataset,path,n,d,k,method,status,sse,sse_exact,ree,n_centers,elapsed_s,driver_s,peak_rss_bytes,peak_rss_mib,timeout_s,error
+sim,normal,work/normal_n262144.txt,262144,262144,8,lex_exact,ok,9022.872718938139,9022.872718938139,0.0,,0.09,,36257792,34.578125,300,

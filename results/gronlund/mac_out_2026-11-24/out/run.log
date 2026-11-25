@@ -1,0 +1,187 @@
+2026-11-24 10:21:12 EST pack root: /Users/sriram/Desktop/Learning/Lex/run1/bot_v1_gronlund_mac_pack
+2026-11-24 10:21:12 EST Expected runtime on the paper M3 Max (128 GB): about 25 minutes.
+2026-11-24 10:21:12 EST   Range: roughly 20-40 minutes. The upper end is if the two k>D wilber-binary
+2026-11-24 10:21:12 EST   cells hit the 300 s timeout (they looped until the 60 s cap on a Linux box)
+2026-11-24 10:21:12 EST   and if monotone compute on the 8.2M audio at k=512 is on the slow side.
+2026-11-24 10:21:12 EST   LEX exact on that audio at k=512 took 175 s and about 68 GB in the paper;
+2026-11-24 10:21:12 EST   it is skipped automatically if this machine has less than about 80 GB of RAM.
+2026-11-24 10:21:12 EST python: /usr/bin/python3 (3.9.6)
+2026-11-24 10:21:12 EST cxx: c++ (Apple clang version 17.0.0 (clang-1700.4.4.1))
+2026-11-24 10:21:12 EST time: /usr/bin/time -l
+2026-11-24 10:21:12 EST lex1d: commit 8a691ee005b657f985ffa299c57542b79570b08c, lex.cpp sha256 ok
+2026-11-24 10:21:12 EST gronlund/kmeans1d: vendored commit 585386d4678000691706acdb954911be8fea1c5c
+2026-11-24 10:21:12 EST building lex_cli with c++ -std=c++17 -O3 -DNDEBUG -ffp-contract=off
+2026-11-24 10:21:14 EST built /Users/sriram/Desktop/Learning/Lex/run1/bot_v1_gronlund_mac_pack/build/lex_cli
+2026-11-24 10:21:14 EST building kmeans1d objects with make CXX=c++ (no -fopenmp)
+2026-11-24 10:21:16 EST linking gronlund_driver
+2026-11-24 10:21:16 EST built /Users/sriram/Desktop/Learning/Lex/run1/bot_v1_gronlund_mac_pack/build/gronlund_driver
+2026-11-24 10:21:17 EST wrote /Users/sriram/Desktop/Learning/Lex/run1/bot_v1_gronlund_mac_pack/out/env.txt
+2026-11-24 10:21:17 EST timeout per cell: 300s  smoke=0
+2026-11-24 10:21:17 EST detected RAM: 128.00 GiB
+2026-11-24 10:21:17 EST audio source: whole data/dharini-abhogi.txt.gz
+2026-11-24 10:21:22 EST audio ready: N=8168256 D=7295677 -> /Users/sriram/Desktop/Learning/Lex/run1/bot_v1_gronlund_mac_pack/work/audio.txt
+2026-11-24 10:21:22 EST wrote normal_n65536.txt N=65536 D=65536 seed=2
+2026-11-24 10:21:22 EST wrote lognormal_n65536.txt N=65536 D=65536 seed=3
+2026-11-24 10:21:22 EST wrote normal_n262144.txt N=262144 D=262144 seed=2
+2026-11-24 10:21:23 EST wrote lognormal_n262144.txt N=262144 D=262144 seed=3
+2026-11-24 10:21:23 EST wrote normal_n1048576.txt N=1048576 D=1048576 seed=2
+2026-11-24 10:21:24 EST wrote lognormal_n1048576.txt N=1048576 D=1048576 seed=3
+2026-11-24 10:21:24 EST wrote ties_d20_n10000.txt N=10000 D=20 seed=4
+2026-11-24 10:21:24 EST wrote ties_d1000_n20000.txt N=20000 D=1000 seed=5
+2026-11-24 10:21:24 EST planned cells: 150
+2026-11-24 10:21:40 EST OK audio_audio_n8168256_k64_lex_exact elapsed=15.73 rss_mib=2524.171875 sse=164.53674044066608
+2026-11-24 10:21:44 EST OK audio_audio_n8168256_k64_lex_hybrid_M4096 elapsed=3.6 rss_mib=604.859375 sse=164.53692575956646
+2026-11-24 10:21:55 EST OK audio_audio_n8168256_k64_wilber-interp elapsed=11.22 rss_mib=800.671875 sse=164.53674044329355
+2026-11-24 10:22:15 EST OK audio_audio_n8168256_k64_hirc elapsed=20.46 rss_mib=512.3125 sse=164.53674044329355
+2026-11-24 10:22:34 EST OK audio_audio_n8168256_k64_wilber-binary elapsed=19.09 rss_mib=1223.875 sse=164.53674044329355
+2026-11-24 10:22:57 EST OK audio_audio_n8168256_k64_monotone_compute elapsed=22.8 rss_mib=439.4375 sse=164.53674044329344
+2026-11-24 10:23:58 EST OK audio_audio_n8168256_k256_lex_exact elapsed=61.05 rss_mib=7870.21875 sse=10.479692247520655
+2026-11-24 10:24:02 EST OK audio_audio_n8168256_k256_lex_hybrid_M4096 elapsed=3.68 rss_mib=612.875 sse=10.480096265714833
+2026-11-24 10:24:15 EST OK audio_audio_n8168256_k256_wilber-interp elapsed=12.53 rss_mib=603.46875 sse=10.479692249792356
+2026-11-24 10:24:39 EST OK audio_audio_n8168256_k256_hirc elapsed=24.25 rss_mib=504.03125 sse=10.479692249792356
+2026-11-24 10:25:08 EST OK audio_audio_n8168256_k256_wilber-binary elapsed=28.76 rss_mib=783.109375 sse=10.479692249792356
+2026-11-24 10:26:33 EST OK audio_audio_n8168256_k256_monotone_compute elapsed=84.98 rss_mib=439.421875 sse=10.479692249792352
+2026-11-24 10:28:31 EST OK audio_audio_n8168256_k512_lex_exact elapsed=118.38 rss_mib=14998.21875 sse=2.615434393906874
+2026-11-24 10:28:35 EST OK audio_audio_n8168256_k512_lex_hybrid_M4096 elapsed=3.75 rss_mib=618.671875 sse=2.6161600135588414
+2026-11-24 10:28:48 EST OK audio_audio_n8168256_k512_wilber-interp elapsed=13.51 rss_mib=464.5625 sse=2.61543439616067
+2026-11-24 10:29:15 EST OK audio_audio_n8168256_k512_hirc elapsed=26.52 rss_mib=491.9375 sse=2.61543439616067
+2026-11-24 10:29:50 EST OK audio_audio_n8168256_k512_wilber-binary elapsed=35.17 rss_mib=966.96875 sse=2.61543439616067
+2026-11-24 10:32:36 EST OK audio_audio_n8168256_k512_monotone_compute elapsed=166.17 rss_mib=439.421875 sse=2.615434396160672
+2026-11-24 10:32:36 EST OK sim_normal_n65536_k8_lex_exact elapsed=0.02 rss_mib=9.828125 sse=2236.856047839433
+2026-11-24 10:32:37 EST OK sim_normal_n65536_k8_lex_hybrid_M4096 elapsed=0.01 rss_mib=6.46875 sse=2236.8561984144
+2026-11-24 10:32:37 EST OK sim_normal_n65536_k8_wilber-interp elapsed=0.04 rss_mib=6.28125 sse=2236.856047839235
+2026-11-24 10:32:37 EST OK sim_normal_n65536_k8_hirc elapsed=0.06 rss_mib=4.90625 sse=2236.856047839235
+2026-11-24 10:32:37 EST OK sim_normal_n65536_k8_wilber-binary elapsed=0.05 rss_mib=6.484375 sse=2236.856047839235
+2026-11-24 10:32:37 EST OK sim_normal_n65536_k8_monotone_compute elapsed=0.02 rss_mib=4.875 sse=2236.8560478392355
+2026-11-24 10:32:37 EST OK sim_normal_n65536_k64_lex_exact elapsed=0.11 rss_mib=24.703125 sse=41.218765358956745
+2026-11-24 10:32:37 EST OK sim_normal_n65536_k64_lex_hybrid_M4096 elapsed=0.02 rss_mib=7.390625 sse=41.21931006342672
+2026-11-24 10:32:37 EST OK sim_normal_n65536_k64_wilber-interp elapsed=0.07 rss_mib=6.15625 sse=41.21876535881168
+2026-11-24 10:32:37 EST OK sim_normal_n65536_k64_hirc elapsed=0.11 rss_mib=4.90625 sse=41.21876535881168
+2026-11-24 10:32:37 EST OK sim_normal_n65536_k64_wilber-binary elapsed=0.16 rss_mib=6.546875 sse=41.21876535881168
+2026-11-24 10:32:38 EST OK sim_normal_n65536_k64_monotone_compute elapsed=0.13 rss_mib=4.875 sse=41.21876535881169
+2026-11-24 10:32:38 EST OK sim_normal_n65536_k512_lex_exact elapsed=0.77 rss_mib=143.875 sse=0.5867601837153369
+2026-11-24 10:32:39 EST OK sim_normal_n65536_k512_lex_hybrid_M4096 elapsed=0.05 rss_mib=14.640625 sse=0.5869111559052869
+2026-11-24 10:32:39 EST OK sim_normal_n65536_k512_wilber-interp elapsed=0.13 rss_mib=5.171875 sse=0.5867601835728434
+2026-11-24 10:32:39 EST OK sim_normal_n65536_k512_hirc elapsed=0.14 rss_mib=4.90625 sse=0.5867601835728434
+2026-11-24 10:32:39 EST OK sim_normal_n65536_k512_wilber-binary elapsed=0.28 rss_mib=6.96875 sse=0.5867601835728434
+2026-11-24 10:32:40 EST OK sim_normal_n65536_k512_monotone_compute elapsed=0.93 rss_mib=4.875 sse=0.5867601835728431
+2026-11-24 10:32:40 EST OK sim_lognormal_n65536_k8_lex_exact elapsed=0.02 rss_mib=9.828125 sse=11915.643754808782
+2026-11-24 10:32:40 EST OK sim_lognormal_n65536_k8_lex_hybrid_M4096 elapsed=0.01 rss_mib=6.46875 sse=11915.643754808782
+2026-11-24 10:32:40 EST OK sim_lognormal_n65536_k8_wilber-interp elapsed=0.05 rss_mib=6.546875 sse=11915.643754811752
+2026-11-24 10:32:40 EST OK sim_lognormal_n65536_k8_hirc elapsed=0.06 rss_mib=4.90625 sse=11915.643754811752
+2026-11-24 10:32:41 EST OK sim_lognormal_n65536_k8_wilber-binary elapsed=0.07 rss_mib=6.5 sse=11915.643754811752
+2026-11-24 10:32:41 EST OK sim_lognormal_n65536_k8_monotone_compute elapsed=0.02 rss_mib=4.875 sse=11915.643754811752
+2026-11-24 10:32:41 EST OK sim_lognormal_n65536_k64_lex_exact elapsed=0.1 rss_mib=24.703125 sse=180.22124266259695
+2026-11-24 10:32:41 EST OK sim_lognormal_n65536_k64_lex_hybrid_M4096 elapsed=0.02 rss_mib=7.390625 sse=180.2215303649538
+2026-11-24 10:32:41 EST OK sim_lognormal_n65536_k64_wilber-interp elapsed=0.06 rss_mib=6.578125 sse=180.2212426654135
+2026-11-24 10:32:41 EST OK sim_lognormal_n65536_k64_hirc elapsed=0.08 rss_mib=4.90625 sse=180.2212426654135
+2026-11-24 10:32:41 EST OK sim_lognormal_n65536_k64_wilber-binary elapsed=0.14 rss_mib=6.578125 sse=180.2212426654135
+2026-11-24 10:32:41 EST OK sim_lognormal_n65536_k64_monotone_compute elapsed=0.13 rss_mib=4.875 sse=180.22124266541348
+2026-11-24 10:32:42 EST OK sim_lognormal_n65536_k512_lex_exact elapsed=0.75 rss_mib=143.875 sse=2.008948583769839
+2026-11-24 10:32:42 EST OK sim_lognormal_n65536_k512_lex_hybrid_M4096 elapsed=0.05 rss_mib=14.65625 sse=2.009281523353084
+2026-11-24 10:32:42 EST OK sim_lognormal_n65536_k512_wilber-interp elapsed=0.12 rss_mib=5.328125 sse=2.0089485875597908
+2026-11-24 10:32:43 EST OK sim_lognormal_n65536_k512_hirc elapsed=0.14 rss_mib=4.90625 sse=2.0089485875597908
+2026-11-24 10:32:43 EST OK sim_lognormal_n65536_k512_wilber-binary elapsed=0.27 rss_mib=6.578125 sse=2.0089485875597908
+2026-11-24 10:32:44 EST OK sim_lognormal_n65536_k512_monotone_compute elapsed=0.9 rss_mib=4.875 sse=2.008948587559791
+2026-11-24 10:32:44 EST OK sim_normal_n262144_k8_lex_exact elapsed=0.09 rss_mib=34.578125 sse=9022.872718938139
+2026-11-24 10:32:44 EST OK sim_normal_n262144_k8_lex_hybrid_M4096 elapsed=0.07 rss_mib=21.46875 sse=9022.87324202905
+2026-11-24 10:32:44 EST OK sim_normal_n262144_k8_wilber-interp elapsed=0.1 rss_mib=19.953125 sse=9022.87271893457
+2026-11-24 10:32:44 EST OK sim_normal_n262144_k8_hirc elapsed=0.13 rss_mib=15.40625 sse=9022.87271893457
+2026-11-24 10:32:45 EST OK sim_normal_n262144_k8_wilber-binary elapsed=0.22 rss_mib=21.484375 sse=9022.87271893457
+2026-11-24 10:32:45 EST OK sim_normal_n262144_k8_monotone_compute elapsed=0.1 rss_mib=15.375 sse=9022.87271893457
+2026-11-24 10:32:45 EST OK sim_normal_n262144_k64_lex_exact elapsed=0.49 rss_mib=91.59375 sse=166.33801304831104
+2026-11-24 10:32:45 EST OK sim_normal_n262144_k64_lex_hybrid_M4096 elapsed=0.08 rss_mib=23.78125 sse=166.33912186547963
+2026-11-24 10:32:46 EST OK sim_normal_n262144_k64_wilber-interp elapsed=0.31 rss_mib=19.984375 sse=166.33801304419896
+2026-11-24 10:32:46 EST OK sim_normal_n262144_k64_hirc elapsed=0.48 rss_mib=17.0625 sse=166.33801304419896
+2026-11-24 10:32:47 EST OK sim_normal_n262144_k64_wilber-binary elapsed=0.67 rss_mib=26.796875 sse=166.33801304419896
+2026-11-24 10:32:48 EST OK sim_normal_n262144_k64_monotone_compute elapsed=0.59 rss_mib=15.375 sse=166.33801304419896
+2026-11-24 10:32:51 EST OK sim_normal_n262144_k512_lex_exact elapsed=3.44 rss_mib=546.578125 sse=2.5364171798784563
+2026-11-24 10:32:51 EST OK sim_normal_n262144_k512_lex_hybrid_M4096 elapsed=0.12 rss_mib=31.203125 sse=2.5374745002795827
+2026-11-24 10:32:52 EST OK sim_normal_n262144_k512_wilber-interp elapsed=0.49 rss_mib=17.84375 sse=2.536417175770115
+2026-11-24 10:32:52 EST OK sim_normal_n262144_k512_hirc elapsed=0.69 rss_mib=16.859375 sse=2.536417175770115
+2026-11-24 10:32:54 EST OK sim_normal_n262144_k512_wilber-binary elapsed=1.02 rss_mib=21.578125 sse=2.536417175770115
+2026-11-24 10:32:58 EST OK sim_normal_n262144_k512_monotone_compute elapsed=4.18 rss_mib=15.46875 sse=2.5364171757701195
+2026-11-24 10:32:58 EST OK sim_lognormal_n262144_k8_lex_exact elapsed=0.09 rss_mib=34.578125 sse=60087.90144791677
+2026-11-24 10:32:58 EST OK sim_lognormal_n262144_k8_lex_hybrid_M4096 elapsed=0.07 rss_mib=21.46875 sse=60087.90151073401
+2026-11-24 10:32:58 EST OK sim_lognormal_n262144_k8_wilber-interp elapsed=0.22 rss_mib=21.5625 sse=60087.90144796387
+2026-11-24 10:32:58 EST OK sim_lognormal_n262144_k8_hirc elapsed=0.23 rss_mib=15.40625 sse=60087.90144796387
+2026-11-24 10:32:59 EST OK sim_lognormal_n262144_k8_wilber-binary elapsed=0.27 rss_mib=27.828125 sse=60087.90144796387
+2026-11-24 10:32:59 EST OK sim_lognormal_n262144_k8_monotone_compute elapsed=0.1 rss_mib=15.546875 sse=60087.901447963886
+2026-11-24 10:32:59 EST OK sim_lognormal_n262144_k64_lex_exact elapsed=0.48 rss_mib=91.59375 sse=904.4766700210489
+2026-11-24 10:33:00 EST OK sim_lognormal_n262144_k64_lex_hybrid_M4096 elapsed=0.08 rss_mib=22.40625 sse=904.4791646275305
+2026-11-24 10:33:00 EST OK sim_lognormal_n262144_k64_wilber-interp elapsed=0.27 rss_mib=21.578125 sse=904.4766700630826
+2026-11-24 10:33:00 EST OK sim_lognormal_n262144_k64_hirc elapsed=0.41 rss_mib=15.40625 sse=904.4766700630826
+2026-11-24 10:33:01 EST OK sim_lognormal_n262144_k64_wilber-binary elapsed=0.61 rss_mib=21.578125 sse=904.4766700630826
+2026-11-24 10:33:02 EST OK sim_lognormal_n262144_k64_monotone_compute elapsed=0.57 rss_mib=15.375 sse=904.4766700630822
+2026-11-24 10:33:05 EST OK sim_lognormal_n262144_k512_lex_exact elapsed=3.34 rss_mib=546.546875 sse=10.874983853077827
+2026-11-24 10:33:05 EST OK sim_lognormal_n262144_k512_lex_hybrid_M4096 elapsed=0.11 rss_mib=29.65625 sse=10.87857275627933
+2026-11-24 10:33:06 EST OK sim_lognormal_n262144_k512_wilber-interp elapsed=0.4 rss_mib=16.53125 sse=10.874983890051565
+2026-11-24 10:33:06 EST OK sim_lognormal_n262144_k512_hirc elapsed=0.59 rss_mib=16.5625 sse=10.874983890051565
+2026-11-24 10:33:07 EST OK sim_lognormal_n262144_k512_wilber-binary elapsed=0.94 rss_mib=21.578125 sse=10.874983890051565
+2026-11-24 10:33:11 EST OK sim_lognormal_n262144_k512_monotone_compute elapsed=4.07 rss_mib=15.375 sse=10.874983890051574
+2026-11-24 10:33:12 EST OK sim_normal_n1048576_k8_lex_exact elapsed=0.39 rss_mib=133.59375 sse=36131.24288891081
+2026-11-24 10:33:12 EST OK sim_normal_n1048576_k8_lex_hybrid_M4096 elapsed=0.37 rss_mib=81.484375 sse=36131.24341042665
+2026-11-24 10:33:13 EST OK sim_normal_n1048576_k8_wilber-interp elapsed=0.85 rss_mib=87.296875 sse=36131.24288890996
+2026-11-24 10:33:14 EST OK sim_normal_n1048576_k8_hirc elapsed=1.31 rss_mib=57.421875 sse=36131.24288890996
+2026-11-24 10:33:15 EST OK sim_normal_n1048576_k8_wilber-binary elapsed=0.89 rss_mib=77.0 sse=36131.24288890996
+2026-11-24 10:33:16 EST OK sim_normal_n1048576_k8_monotone_compute elapsed=0.44 rss_mib=57.390625 sse=36131.24288890996
+2026-11-24 10:33:18 EST OK sim_normal_n1048576_k64_lex_exact elapsed=2.11 rss_mib=362.703125 sse=671.9638884900543
+2026-11-24 10:33:18 EST OK sim_normal_n1048576_k64_lex_hybrid_M4096 elapsed=0.38 rss_mib=82.46875 sse=671.9647345497339
+2026-11-24 10:33:20 EST OK sim_normal_n1048576_k64_wilber-interp elapsed=1.34 rss_mib=86.9375 sse=671.9638884911956
+2026-11-24 10:33:22 EST OK sim_normal_n1048576_k64_hirc elapsed=2.35 rss_mib=57.421875 sse=671.9638884911956
+2026-11-24 10:33:25 EST OK sim_normal_n1048576_k64_wilber-binary elapsed=2.44 rss_mib=81.296875 sse=671.9638884911956
+2026-11-24 10:33:27 EST OK sim_normal_n1048576_k64_monotone_compute elapsed=2.6 rss_mib=57.5625 sse=671.9638884911956
+2026-11-24 10:33:42 EST OK sim_normal_n1048576_k512_lex_exact elapsed=14.97 rss_mib=2157.9375 sse=10.48933969092387
+2026-11-24 10:33:43 EST OK sim_normal_n1048576_k512_lex_hybrid_M4096 elapsed=0.41 rss_mib=89.859375 sse=10.493377336197023
+2026-11-24 10:33:44 EST OK sim_normal_n1048576_k512_wilber-interp elapsed=0.94 rss_mib=57.6875 sse=10.489339693245721
+2026-11-24 10:33:45 EST OK sim_normal_n1048576_k512_hirc elapsed=1.48 rss_mib=57.421875 sse=10.489339693245721
+2026-11-24 10:33:49 EST OK sim_normal_n1048576_k512_wilber-binary elapsed=3.59 rss_mib=85.546875 sse=10.489339693245721
+2026-11-24 10:34:07 EST OK sim_normal_n1048576_k512_monotone_compute elapsed=18.5 rss_mib=57.484375 sse=10.489339693245723
+2026-11-24 10:34:08 EST OK sim_lognormal_n1048576_k8_lex_exact elapsed=0.38 rss_mib=133.59375 sse=249710.0190055622
+2026-11-24 10:34:08 EST OK sim_lognormal_n1048576_k8_lex_hybrid_M4096 elapsed=0.36 rss_mib=85.6875 sse=249710.0223289878
+2026-11-24 10:34:09 EST OK sim_lognormal_n1048576_k8_wilber-interp elapsed=0.78 rss_mib=77.046875 sse=249710.01900528697
+2026-11-24 10:34:10 EST OK sim_lognormal_n1048576_k8_hirc elapsed=0.87 rss_mib=57.421875 sse=249710.01900528697
+2026-11-24 10:34:11 EST OK sim_lognormal_n1048576_k8_wilber-binary elapsed=1.12 rss_mib=108.796875 sse=249710.01900528697
+2026-11-24 10:34:11 EST OK sim_lognormal_n1048576_k8_monotone_compute elapsed=0.42 rss_mib=57.390625 sse=249710.01900528694
+2026-11-24 10:34:14 EST OK sim_lognormal_n1048576_k64_lex_exact elapsed=2.06 rss_mib=358.53125 sse=4125.3278056158415
+2026-11-24 10:34:14 EST OK sim_lognormal_n1048576_k64_lex_hybrid_M4096 elapsed=0.37 rss_mib=82.78125 sse=4125.329978424265
+2026-11-24 10:34:15 EST OK sim_lognormal_n1048576_k64_wilber-interp elapsed=1.08 rss_mib=84.921875 sse=4125.327805368632
+2026-11-24 10:34:17 EST OK sim_lognormal_n1048576_k64_hirc elapsed=1.8 rss_mib=57.40625 sse=4125.327805368632
+2026-11-24 10:34:19 EST OK sim_lognormal_n1048576_k64_wilber-binary elapsed=2.23 rss_mib=77.078125 sse=4125.327805368632
+2026-11-24 10:34:22 EST OK sim_lognormal_n1048576_k64_monotone_compute elapsed=2.54 rss_mib=57.53125 sse=4125.327805368634
+2026-11-24 10:34:36 EST OK sim_lognormal_n1048576_k512_lex_exact elapsed=14.59 rss_mib=2158.0 sse=53.60366004743685
+2026-11-24 10:34:37 EST OK sim_lognormal_n1048576_k512_lex_hybrid_M4096 elapsed=0.41 rss_mib=90.109375 sse=53.61770122119665
+2026-11-24 10:34:38 EST OK sim_lognormal_n1048576_k512_wilber-interp elapsed=1.64 rss_mib=57.71875 sse=53.603659720882966
+2026-11-24 10:34:41 EST OK sim_lognormal_n1048576_k512_hirc elapsed=2.75 rss_mib=63.40625 sse=53.603659720882966
+2026-11-24 10:34:45 EST OK sim_lognormal_n1048576_k512_wilber-binary elapsed=3.8 rss_mib=100.34375 sse=53.603659720882966
+2026-11-24 10:35:03 EST OK sim_lognormal_n1048576_k512_monotone_compute elapsed=17.97 rss_mib=57.390625 sse=53.60365972088298
+2026-11-24 10:35:03 EST OK ties_ties_d20_n10000_k10_lex_exact elapsed=0.0 rss_mib=1.890625 sse=2498.3025393792095
+2026-11-24 10:35:03 EST OK ties_ties_d20_n10000_k10_lex_hybrid_M4096 elapsed=0.0 rss_mib=1.890625 sse=2498.3025393792095
+2026-11-24 10:35:03 EST OK ties_ties_d20_n10000_k10_wilber-interp elapsed=0.0 rss_mib=2.15625 sse=2498.3025393792695
+2026-11-24 10:35:03 EST OK ties_ties_d20_n10000_k10_hirc elapsed=0.0 rss_mib=1.9375 sse=2498.3025393792695
+2026-11-24 10:35:03 EST OK ties_ties_d20_n10000_k10_wilber-binary elapsed=0.0 rss_mib=2.109375 sse=2498.3025393792695
+2026-11-24 10:35:03 EST OK ties_ties_d20_n10000_k10_monotone_compute elapsed=0.0 rss_mib=1.9375 sse=2498.3025393792695
+2026-11-24 10:35:03 EST OK ties_ties_d20_n10000_k40_lex_exact elapsed=0.0 rss_mib=1.90625 sse=1.0478047928744996e-23
+2026-11-24 10:35:03 EST OK ties_ties_d20_n10000_k40_lex_hybrid_M4096 elapsed=0.0 rss_mib=1.890625 sse=1.0478047928744996e-23
+2026-11-24 10:35:03 EST abort ties_ties_d20_n10000_k40_wilber-interp rc=-6
+2026-11-24 10:35:03 EST abort ties_ties_d20_n10000_k40_hirc rc=-6
+2026-11-24 10:40:03 EST TIMEOUT ties_ties_d20_n10000_k40_wilber-binary after 300s
+2026-11-24 10:40:03 EST OK ties_ties_d20_n10000_k40_monotone_compute elapsed=0.01 rss_mib=1.921875 sse=0.0
+2026-11-24 10:40:03 EST OK ties_ties_d1000_n20000_k500_lex_exact elapsed=0.0 rss_mib=4.453125 sse=4878.359229270694
+2026-11-24 10:40:03 EST OK ties_ties_d1000_n20000_k500_lex_hybrid_M4096 elapsed=0.0 rss_mib=4.453125 sse=4878.359229270694
+2026-11-24 10:40:03 EST OK ties_ties_d1000_n20000_k500_wilber-interp elapsed=0.04 rss_mib=2.6875 sse=4878.359229283119
+2026-11-24 10:40:04 EST OK ties_ties_d1000_n20000_k500_hirc elapsed=0.02 rss_mib=2.515625 sse=4878.359229283119
+2026-11-24 10:40:04 EST OK ties_ties_d1000_n20000_k500_wilber-binary elapsed=0.07 rss_mib=3.078125 sse=4878.359229283119
+2026-11-24 10:40:04 EST OK ties_ties_d1000_n20000_k500_monotone_compute elapsed=0.23 rss_mib=2.53125 sse=4878.359229283122
+2026-11-24 10:40:04 EST OK ties_ties_d1000_n20000_k2000_lex_exact elapsed=0.01 rss_mib=6.40625 sse=1.184371403074074e-22
+2026-11-24 10:40:04 EST OK ties_ties_d1000_n20000_k2000_lex_hybrid_M4096 elapsed=0.0 rss_mib=2.5 sse=1.184371403074074e-22
+2026-11-24 10:40:05 EST abort ties_ties_d1000_n20000_k2000_wilber-interp rc=-6
+2026-11-24 10:40:05 EST abort ties_ties_d1000_n20000_k2000_hirc rc=-6
+2026-11-24 10:45:05 EST TIMEOUT ties_ties_d1000_n20000_k2000_wilber-binary after 300s
+2026-11-24 10:45:06 EST OK ties_ties_d1000_n20000_k2000_monotone_compute elapsed=0.87 rss_mib=2.515625 sse=0.0
+2026-11-24 10:45:06 EST done: 144 ok, 6 failed/timeout/abort, 0 skipped, of 150 cells
+2026-11-24 10:45:06 EST wrote /Users/sriram/Desktop/Learning/Lex/run1/bot_v1_gronlund_mac_pack/out/results.csv and /Users/sriram/Desktop/Learning/Lex/run1/bot_v1_gronlund_mac_pack/out/summary.md
+2026-11-24 10:45:06 EST run_cells.py exit 0
+2026-11-24 10:45:06 EST results: /Users/sriram/Desktop/Learning/Lex/run1/bot_v1_gronlund_mac_pack/out/results.csv
+2026-11-24 10:45:06 EST env: /Users/sriram/Desktop/Learning/Lex/run1/bot_v1_gronlund_mac_pack/out/env.txt
+2026-11-24 10:45:06 EST summary: /Users/sriram/Desktop/Learning/Lex/run1/bot_v1_gronlund_mac_pack/out/summary.md

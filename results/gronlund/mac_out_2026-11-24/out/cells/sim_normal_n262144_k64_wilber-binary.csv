@@ -1,0 +1,2 @@
+section,dataset,path,n,d,k,method,status,sse,sse_exact,ree,n_centers,elapsed_s,driver_s,peak_rss_bytes,peak_rss_mib,timeout_s,error
+sim,normal,work/normal_n262144.txt,262144,262144,64,wilber-binary,ok,166.33801304419896,166.33801304831104,-2.4721236395351034e-11,64,0.67,0.635186458,28098560,26.796875,300,

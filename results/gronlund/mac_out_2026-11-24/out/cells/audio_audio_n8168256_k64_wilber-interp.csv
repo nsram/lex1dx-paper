@@ -1,0 +1,2 @@
+section,dataset,path,n,d,k,method,status,sse,sse_exact,ree,n_centers,elapsed_s,driver_s,peak_rss_bytes,peak_rss_mib,timeout_s,error
+audio,audio,work/audio.txt,8168256,7295677,64,wilber-interp,ok,164.53674044329355,164.53674044066608,1.5968915775079593e-11,64,11.22,9.90850708,839565312,800.671875,300,

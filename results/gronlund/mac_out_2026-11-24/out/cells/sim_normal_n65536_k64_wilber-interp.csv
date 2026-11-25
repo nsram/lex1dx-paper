@@ -1,0 +1,2 @@
+section,dataset,path,n,d,k,method,status,sse,sse_exact,ree,n_centers,elapsed_s,driver_s,peak_rss_bytes,peak_rss_mib,timeout_s,error
+sim,normal,work/normal_n65536.txt,65536,65536,64,wilber-interp,ok,41.21876535881168,41.218765358956745,-3.5193777317073347e-12,64,0.07,0.069198042,6455296,6.15625,300,

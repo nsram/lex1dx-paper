@@ -1,0 +1,2 @@
+section,dataset,path,n,d,k,method,status,sse,sse_exact,ree,n_centers,elapsed_s,driver_s,peak_rss_bytes,peak_rss_mib,timeout_s,error
+ties,ties_d1000,work/ties_d1000_n20000.txt,20000,1000,500,monotone:compute,ok,4878.359229283122,4878.359229270694,2.547441674745866e-12,0,0.23,0.233567541,2654208,2.53125,300,

@@ -1,0 +1,2 @@
+section,dataset,path,n,d,k,method,status,sse,sse_exact,ree,n_centers,elapsed_s,driver_s,peak_rss_bytes,peak_rss_mib,timeout_s,error
+sim,lognormal,work/lognormal_n262144.txt,262144,262144,8,hirc,ok,60087.90144796387,60087.90144791677,7.839273540789733e-13,8,0.23,0.19566525,16154624,15.40625,300,

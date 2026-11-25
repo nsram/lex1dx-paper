@@ -1,0 +1,2 @@
+section,dataset,path,n,d,k,method,status,sse,sse_exact,ree,n_centers,elapsed_s,driver_s,peak_rss_bytes,peak_rss_mib,timeout_s,error
+sim,normal,work/normal_n1048576.txt,1048576,1048576,512,hirc,ok,10.489339693245721,10.48933969092387,2.2135341443783617e-10,512,1.48,1.32185792,60211200,57.421875,300,

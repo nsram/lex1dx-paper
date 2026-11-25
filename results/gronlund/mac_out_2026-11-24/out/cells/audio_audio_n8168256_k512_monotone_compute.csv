@@ -1,0 +1,2 @@
+section,dataset,path,n,d,k,method,status,sse,sse_exact,ree,n_centers,elapsed_s,driver_s,peak_rss_bytes,peak_rss_mib,timeout_s,error
+audio,audio,work/audio.txt,8168256,7295677,512,monotone:compute,ok,2.615434396160672,2.615434393906874,8.617299070238969e-10,0,166.17,164.973432,460767232,439.421875,300,

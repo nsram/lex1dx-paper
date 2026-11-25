@@ -1,0 +1,2 @@
+section,dataset,path,n,d,k,method,status,sse,sse_exact,ree,n_centers,elapsed_s,driver_s,peak_rss_bytes,peak_rss_mib,timeout_s,error
+sim,lognormal,work/lognormal_n1048576.txt,1048576,1048576,8,wilber-binary,ok,249710.01900528697,249710.0190055622,-1.1022181878220908e-12,8,1.12,0.97333225,114081792,108.796875,300,

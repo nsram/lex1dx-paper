@@ -1,0 +1,432 @@
+CELL dataset=uniform_n8388608 method=sort k=0 M=0 n=8388608 D=8388608 Dprime=8388608 status=ok sort_s=0.566038 post_s=0 peak_rss_mb=193.2
+
+rc=0
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/uniform_n8388608.sorted.f64 uniform_n8388608 64 3 rc=0 elapsed=31.202
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=uniform_n8388608 method=wilber k=64 M=0 n=8388608 D=8388608 Dprime=8388608 status=ok sort_s=0.000000 post_s=7.846982 dp_s=7.846982 group_s=0 atoms_s=0 collapse_s=0 refine_s=0 sse=170.65890856764022 lib_cost=170.65890896435533 exact_sse=170.65890856764022 ree_pct=0 coarse_sse=170.65890856764022 k_eff=64 atoms=8388608 G=8388608 collapse_passes=0 collapse_merges=0 merges_per_pass=0 refine_sweeps=0 refine_moves=0 reps=3 peak_rss_mb=782.6
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/pristine_cell wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/uniform_n8388608.sorted.f64 uniform_n8388608 64 3 rc=0 elapsed=31.084
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=uniform_n8388608 method=wilber_pristine k=64 M=0 n=8388608 D=8388608 Dprime=8388608 status=ok sort_s=0.000000 post_s=7.700840 dp_s=7.700840 group_s=0 atoms_s=0 collapse_s=0 refine_s=0 sse=170.65890856765512 lib_cost=170.6589089643424 exact_sse=170.65890856765512 ree_pct=0 coarse_sse=170.65890856765512 k_eff=64 atoms=8388608 G=8388608 collapse_passes=0 collapse_merges=0 merges_per_pass=0 refine_sweeps=0 refine_moves=0 reps=3 peak_rss_mb=742.2
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell sig5exact /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/uniform_n8388608.sorted.f64 uniform_n8388608 64 3 170.65890856764022 rc=0 elapsed=1.320
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=uniform_n8388608 method=sig5exact k=64 M=4096 n=8388608 D=8388608 Dprime=239077 sig=5 status=ok sort_s=0.000000 post_s=0.310254 dp_s=0.268046 group_s=0.026818 atoms_s=0.002994 collapse_s=0.000045 refine_s=0.000000 sse=170.65892877141155 lib_cost=0 exact_sse=170.65890856764022 ree_pct=1.18387e-05 coarse_sse=170.65892877141155 coarse_ree_pct=1.18387e-05 k_eff=64 atoms=239077 G=239077 collapse_passes=0 collapse_merges=0 merges_per_pass=0 refine_sweeps=0 refine_moves=0 reps=3 peak_rss_mb=113.4 q=0.75
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell sig5 /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/uniform_n8388608.sorted.f64 uniform_n8388608 64 3 170.65890856764022 rc=0 elapsed=0.558
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=uniform_n8388608 method=sig5 k=64 M=4096 n=8388608 D=8388608 Dprime=239077 sig=5 status=ok sort_s=0.000000 post_s=0.117193 dp_s=0.004806 group_s=0.027008 atoms_s=0.003312 collapse_s=0.008395 refine_s=0.061415 sse=170.65932324213335 lib_cost=0 exact_sse=170.65890856764022 ree_pct=0.000242984 coarse_sse=170.67088282655388 coarse_ree_pct=0.00701649 k_eff=64 atoms=239077 G=4096 collapse_passes=6 collapse_merges=234981 merges_per_pass=97629,56299,34507,20205,12258,14083 refine_sweeps=1186 refine_moves=39772 reps=3 peak_rss_mb=419.0 q=0.75
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/uniform_n8388608.sorted.f64 uniform_n8388608 256 3 rc=0 elapsed=44.076
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=uniform_n8388608 method=wilber k=256 M=0 n=8388608 D=8388608 Dprime=8388608 status=ok sort_s=0.000000 post_s=11.018815 dp_s=11.018815 group_s=0 atoms_s=0 collapse_s=0 refine_s=0 sse=10.652340005438029 lib_cost=10.652340398122307 exact_sse=10.652340005438029 ree_pct=0 coarse_sse=10.652340005438029 k_eff=256 atoms=8388608 G=8388608 collapse_passes=0 collapse_merges=0 merges_per_pass=0 refine_sweeps=0 refine_moves=0 reps=3 peak_rss_mb=501.8
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/pristine_cell wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/uniform_n8388608.sorted.f64 uniform_n8388608 256 3 rc=0 elapsed=43.963
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=uniform_n8388608 method=wilber_pristine k=256 M=0 n=8388608 D=8388608 Dprime=8388608 status=ok sort_s=0.000000 post_s=10.980746 dp_s=10.980746 group_s=0 atoms_s=0 collapse_s=0 refine_s=0 sse=10.652340005438029 lib_cost=10.652340398185082 exact_sse=10.652340005438029 ree_pct=0 coarse_sse=10.652340005438029 k_eff=256 atoms=8388608 G=8388608 collapse_passes=0 collapse_merges=0 merges_per_pass=0 refine_sweeps=0 refine_moves=0 reps=3 peak_rss_mb=435.3
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell sig5exact /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/uniform_n8388608.sorted.f64 uniform_n8388608 256 3 10.652340005438029 rc=0 elapsed=1.530
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=uniform_n8388608 method=sig5exact k=256 M=8192 n=8388608 D=8388608 Dprime=239077 sig=5 status=ok sort_s=0.000000 post_s=0.363132 dp_s=0.320926 group_s=0.026792 atoms_s=0.002970 collapse_s=0.000041 refine_s=0.000000 sse=10.652360969397574 lib_cost=0 exact_sse=10.652340005438029 ree_pct=0.000196801 coarse_sse=10.652360969397574 coarse_ree_pct=0.000196801 k_eff=256 atoms=239077 G=239077 collapse_passes=0 collapse_merges=0 merges_per_pass=0 refine_sweeps=0 refine_moves=0 reps=3 peak_rss_mb=109.5 q=0.75
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell sig5 /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/uniform_n8388608.sorted.f64 uniform_n8388608 256 3 10.652340005438029 rc=0 elapsed=0.668
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=uniform_n8388608 method=sig5 k=256 M=8192 n=8388608 D=8388608 Dprime=239077 sig=5 status=ok sort_s=0.000000 post_s=0.144728 dp_s=0.019662 group_s=0.027057 atoms_s=0.003321 collapse_s=0.007807 refine_s=0.074208 sse=10.652734752388039 lib_cost=0 exact_sse=10.652340005438029 ree_pct=0.00370573 coarse_sse=10.655460795758044 coarse_ree_pct=0.0292968 k_eff=256 atoms=239077 G=8192 collapse_passes=6 collapse_merges=230885 merges_per_pass=97629,56299,34507,20205,12258,9987 refine_sweeps=929 refine_moves=80602 reps=3 peak_rss_mb=419.9 q=0.75
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/uniform_n8388608.sorted.f64 uniform_n8388608 512 3 rc=0 elapsed=48.090
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=uniform_n8388608 method=wilber k=512 M=0 n=8388608 D=8388608 Dprime=8388608 status=ok sort_s=0.000000 post_s=12.000160 dp_s=12.000160 group_s=0 atoms_s=0 collapse_s=0 refine_s=0 sse=2.6614584844887208 lib_cost=2.6614588767870244 exact_sse=2.6614584844887208 ree_pct=0 coarse_sse=2.6614584844887208 k_eff=512 atoms=8388608 G=8388608 collapse_passes=0 collapse_merges=0 merges_per_pass=0 refine_sweeps=0 refine_moves=0 reps=3 peak_rss_mb=501.7
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/pristine_cell wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/uniform_n8388608.sorted.f64 uniform_n8388608 512 3 rc=0 elapsed=47.867
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=uniform_n8388608 method=wilber_pristine k=512 M=0 n=8388608 D=8388608 Dprime=8388608 status=ok sort_s=0.000000 post_s=11.953324 dp_s=11.953324 group_s=0 atoms_s=0 collapse_s=0 refine_s=0 sse=2.6614584844887208 lib_cost=2.6614588767920249 exact_sse=2.6614584844887208 ree_pct=0 coarse_sse=2.6614584844887208 k_eff=512 atoms=8388608 G=8388608 collapse_passes=0 collapse_merges=0 merges_per_pass=0 refine_sweeps=0 refine_moves=0 reps=3 peak_rss_mb=423.5
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell sig5exact /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/uniform_n8388608.sorted.f64 uniform_n8388608 512 3 2.6614584844887208 rc=0 elapsed=1.548
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=uniform_n8388608 method=sig5exact k=512 M=16384 n=8388608 D=8388608 Dprime=239077 sig=5 status=ok sort_s=0.000000 post_s=0.367349 dp_s=0.325267 group_s=0.026798 atoms_s=0.003019 collapse_s=0.000043 refine_s=0.000000 sse=2.6614798993596329 lib_cost=0 exact_sse=2.6614584844887208 ree_pct=0.000804629 coarse_sse=2.6614798993596329 coarse_ree_pct=0.000804629 k_eff=512 atoms=239077 G=239077 collapse_passes=0 collapse_merges=0 merges_per_pass=0 refine_sweeps=0 refine_moves=0 reps=3 peak_rss_mb=109.5 q=0.75
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell sig5 /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/uniform_n8388608.sorted.f64 uniform_n8388608 512 3 2.6614584844887208 rc=0 elapsed=0.746
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=uniform_n8388608 method=sig5 k=512 M=16384 n=8388608 D=8388608 Dprime=239077 sig=5 status=ok sort_s=0.000000 post_s=0.163672 dp_s=0.038428 group_s=0.027061 atoms_s=0.003335 collapse_s=0.008439 refine_s=0.074053 sse=2.6614930487204904 lib_cost=0 exact_sse=2.6614584844887208 ree_pct=0.0012987 coarse_sse=2.6622549735028502 coarse_ree_pct=0.0299268 k_eff=512 atoms=239077 G=16384 collapse_passes=5 collapse_merges=222693 merges_per_pass=97629,56299,34507,20205,14053 refine_sweeps=419 refine_moves=65453 reps=3 peak_rss_mb=445.5 q=0.75
+
+CELL dataset=normal_n8388608 method=sort k=0 M=0 n=8388608 D=8388608 Dprime=8388608 status=ok sort_s=0.572344 post_s=0 peak_rss_mb=193.2
+
+rc=0
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/normal_n8388608.sorted.f64 normal_n8388608 64 3 rc=0 elapsed=34.351
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=normal_n8388608 method=wilber k=64 M=0 n=8388608 D=8388608 Dprime=8388608 status=ok sort_s=0.000000 post_s=8.614412 dp_s=8.614412 group_s=0 atoms_s=0 collapse_s=0 refine_s=0 sse=5395.5195334248219 lib_cost=5395.5195340732398 exact_sse=5395.5195334248219 ree_pct=0 coarse_sse=5395.5195334248219 k_eff=64 atoms=8388608 G=8388608 collapse_passes=0 collapse_merges=0 merges_per_pass=0 refine_sweeps=0 refine_moves=0 reps=3 peak_rss_mb=922.6
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/pristine_cell wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/normal_n8388608.sorted.f64 normal_n8388608 64 3 rc=0 elapsed=34.011
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=normal_n8388608 method=wilber_pristine k=64 M=0 n=8388608 D=8388608 Dprime=8388608 status=ok sort_s=0.000000 post_s=8.548002 dp_s=8.548002 group_s=0 atoms_s=0 collapse_s=0 refine_s=0 sse=5395.5195334248219 lib_cost=5395.519534072766 exact_sse=5395.5195334248219 ree_pct=0 coarse_sse=5395.5195334248219 k_eff=64 atoms=8388608 G=8388608 collapse_passes=0 collapse_merges=0 merges_per_pass=0 refine_sweeps=0 refine_moves=0 reps=3 peak_rss_mb=755.0
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell sig5exact /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/normal_n8388608.sorted.f64 normal_n8388608 64 3 5395.5195334248219 rc=0 elapsed=2.300
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=normal_n8388608 method=sig5exact k=64 M=4096 n=8388608 D=8388608 Dprime=462310 sig=5 status=ok sort_s=0.000000 post_s=0.556350 dp_s=0.496172 group_s=0.041884 atoms_s=0.005886 collapse_s=0.000104 refine_s=0.000000 sse=5395.5203136880373 lib_cost=0 exact_sse=5395.5195334248219 ree_pct=1.44613e-05 coarse_sse=5395.5203136880373 coarse_ree_pct=1.44613e-05 k_eff=64 atoms=462310 G=462310 collapse_passes=0 collapse_merges=0 merges_per_pass=0 refine_sweeps=0 refine_moves=0 reps=3 peak_rss_mb=159.8 q=0.75
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell sig5 /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/normal_n8388608.sorted.f64 normal_n8388608 64 3 5395.5195334248219 rc=0 elapsed=0.665
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=normal_n8388608 method=sig5 k=64 M=4096 n=8388608 D=8388608 Dprime=462310 sig=5 status=ok sort_s=0.000000 post_s=0.142151 dp_s=0.005847 group_s=0.041975 atoms_s=0.006519 collapse_s=0.014713 refine_s=0.060840 sse=5395.5251039069763 lib_cost=0 exact_sse=5395.5195334248219 ree_pct=0.000103243 coarse_sse=5395.9195642048217 coarse_ree_pct=0.00741413 k_eff=64 atoms=462310 G=4096 collapse_passes=8 collapse_merges=458214 merges_per_pass=184811,109028,65164,40470,24703,15005,9182,9851 refine_sweeps=1281 refine_moves=39567 reps=3 peak_rss_mb=449.6 q=0.75
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/normal_n8388608.sorted.f64 normal_n8388608 256 3 rc=0 elapsed=22.943
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=normal_n8388608 method=wilber k=256 M=0 n=8388608 D=8388608 Dprime=8388608 status=ok sort_s=0.000000 post_s=5.703982 dp_s=5.703982 group_s=0 atoms_s=0 collapse_s=0 refine_s=0 sse=343.69592240295054 lib_cost=343.69592304501083 exact_sse=343.69592240295054 ree_pct=0 coarse_sse=343.69592240295054 k_eff=256 atoms=8388608 G=8388608 collapse_passes=0 collapse_merges=0 merges_per_pass=0 refine_sweeps=0 refine_moves=0 reps=3 peak_rss_mb=794.8
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/pristine_cell wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/normal_n8388608.sorted.f64 normal_n8388608 256 3 rc=0 elapsed=22.955
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=normal_n8388608 method=wilber_pristine k=256 M=0 n=8388608 D=8388608 Dprime=8388608 status=ok sort_s=0.000000 post_s=5.755083 dp_s=5.755083 group_s=0 atoms_s=0 collapse_s=0 refine_s=0 sse=343.69592240295054 lib_cost=343.69592304496371 exact_sse=343.69592240295054 ree_pct=0 coarse_sse=343.69592240295054 k_eff=256 atoms=8388608 G=8388608 collapse_passes=0 collapse_merges=0 merges_per_pass=0 refine_sweeps=0 refine_moves=0 reps=3 peak_rss_mb=718.9
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell sig5exact /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/normal_n8388608.sorted.f64 normal_n8388608 256 3 343.69592240295054 rc=0 elapsed=2.533
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=normal_n8388608 method=sig5exact k=256 M=8192 n=8388608 D=8388608 Dprime=462310 sig=5 status=ok sort_s=0.000000 post_s=0.612696 dp_s=0.552363 group_s=0.042042 atoms_s=0.005913 collapse_s=0.000084 refine_s=0.000000 sse=343.69675377876735 lib_cost=0 exact_sse=343.69592240295054 ree_pct=0.000241893 coarse_sse=343.69675377876735 coarse_ree_pct=0.000241893 k_eff=256 atoms=462310 G=462310 collapse_passes=0 collapse_merges=0 merges_per_pass=0 refine_sweeps=0 refine_moves=0 reps=3 peak_rss_mb=150.5 q=0.75
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell sig5 /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/normal_n8388608.sorted.f64 normal_n8388608 256 3 343.69592240295054 rc=0 elapsed=0.790
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=normal_n8388608 method=sig5 k=256 M=8192 n=8388608 D=8388608 Dprime=462310 sig=5 status=ok sort_s=0.000000 post_s=0.173153 dp_s=0.016616 group_s=0.042110 atoms_s=0.006348 collapse_s=0.015516 refine_s=0.080555 sse=343.69958188486856 lib_cost=0 exact_sse=343.69592240295054 ree_pct=0.00106474 coarse_sse=343.79520401795315 coarse_ree_pct=0.0288865 k_eff=256 atoms=462310 G=8192 collapse_passes=7 collapse_merges=454118 merges_per_pass=184811,109028,65164,40470,24703,15005,14937 refine_sweeps=1255 refine_moves=83716 reps=3 peak_rss_mb=451.0 q=0.75
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/normal_n8388608.sorted.f64 normal_n8388608 512 3 rc=0 elapsed=36.753
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=normal_n8388608 method=wilber k=512 M=0 n=8388608 D=8388608 Dprime=8388608 status=ok sort_s=0.000000 post_s=9.173398 dp_s=9.173398 group_s=0 atoms_s=0 collapse_s=0 refine_s=0 sse=85.765454827572555 lib_cost=85.765455478161158 exact_sse=85.765454827572555 ree_pct=0 coarse_sse=85.765454827572555 k_eff=512 atoms=8388608 G=8388608 collapse_passes=0 collapse_merges=0 merges_per_pass=0 refine_sweeps=0 refine_moves=0 reps=3 peak_rss_mb=492.2
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/pristine_cell wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/normal_n8388608.sorted.f64 normal_n8388608 512 3 rc=0 elapsed=36.770
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=normal_n8388608 method=wilber_pristine k=512 M=0 n=8388608 D=8388608 Dprime=8388608 status=ok sort_s=0.000000 post_s=9.181504 dp_s=9.181504 group_s=0 atoms_s=0 collapse_s=0 refine_s=0 sse=85.765454827572555 lib_cost=85.765455478142684 exact_sse=85.765454827572555 ree_pct=0 coarse_sse=85.765454827572555 k_eff=512 atoms=8388608 G=8388608 collapse_passes=0 collapse_merges=0 merges_per_pass=0 refine_sweeps=0 refine_moves=0 reps=3 peak_rss_mb=435.3
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell sig5exact /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/normal_n8388608.sorted.f64 normal_n8388608 512 3 85.765454827572555 rc=0 elapsed=2.380
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=normal_n8388608 method=sig5exact k=512 M=16384 n=8388608 D=8388608 Dprime=462310 sig=5 status=ok sort_s=0.000000 post_s=0.573123 dp_s=0.512808 group_s=0.042115 atoms_s=0.005950 collapse_s=0.000085 refine_s=0.000000 sse=85.766221350754833 lib_cost=0 exact_sse=85.765454827572555 ree_pct=0.000893744 coarse_sse=85.766221350754833 coarse_ree_pct=0.000893744 k_eff=512 atoms=462310 G=462310 collapse_passes=0 collapse_merges=0 merges_per_pass=0 refine_sweeps=0 refine_moves=0 reps=3 peak_rss_mb=153.4 q=0.75
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell sig5 /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/normal_n8388608.sorted.f64 normal_n8388608 512 3 85.765454827572555 rc=0 elapsed=0.889
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=normal_n8388608 method=sig5 k=512 M=16384 n=8388608 D=8388608 Dprime=462310 sig=5 status=ok sort_s=0.000000 post_s=0.199227 dp_s=0.033924 group_s=0.042008 atoms_s=0.006805 collapse_s=0.014718 refine_s=0.088978 sse=85.766584643022526 lib_cost=0 exact_sse=85.765454827572555 ree_pct=0.00131733 coarse_sse=85.791707221160337 coarse_ree_pct=0.0306095 k_eff=512 atoms=462310 G=16384 collapse_passes=7 collapse_merges=445926 merges_per_pass=184811,109028,65164,40470,24703,15005,6745 refine_sweeps=734 refine_moves=70336 reps=3 peak_rss_mb=552.1 q=0.75
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell tuned /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/normal_n8388608.sorted.f64 normal_n8388608 512 3 85.765454827572555 --q=0.5 rc=0 elapsed=2.119
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=normal_n8388608 method=tuned k=512 M=16384 n=8388608 D=8388608 Dprime=8388608 sig=0 status=ok sort_s=0.000000 post_s=0.500536 dp_s=0.033123 group_s=0.000000 atoms_s=0.056355 collapse_s=0.369006 refine_s=0.029771 sse=85.766891200608029 lib_cost=0 exact_sse=85.765454827572555 ree_pct=0.00167477 coarse_sse=85.788843439005007 coarse_ree_pct=0.0272704 k_eff=512 atoms=8388608 G=16384 collapse_passes=17 collapse_merges=8372224 merges_per_pass=2718752,1839079,1241299,827109,553949,374809,255439,174873,120800,83679,58476,40862,28843,20470,14423,10330,9032 refine_sweeps=704 refine_moves=69521 reps=3 peak_rss_mb=740.5 q=0.5
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell tuned /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/normal_n8388608.sorted.f64 normal_n8388608 512 3 85.765454827572555 --q=0.75 rc=0 elapsed=1.611
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=normal_n8388608 method=tuned k=512 M=16384 n=8388608 D=8388608 Dprime=8388608 sig=0 status=ok sort_s=0.000000 post_s=0.374229 dp_s=0.033246 group_s=0.000000 atoms_s=0.056160 collapse_s=0.239096 refine_s=0.033350 sse=85.767275222866331 lib_cost=0 exact_sse=85.765454827572555 ree_pct=0.00212253 coarse_sse=85.790450637599449 coarse_ree_pct=0.0291444 k_eff=512 atoms=8388608 G=16384 collapse_passes=12 collapse_merges=8372224 merges_per_pass=3516408,2033348,1186759,693957,403943,232880,133791,77566,45201,26511,15631,6229 refine_sweeps=780 refine_moves=68022 reps=3 peak_rss_mb=740.8 q=0.75
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell tuned /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/normal_n8388608.sorted.f64 normal_n8388608 512 3 85.765454827572555 --q=0.9 rc=0 elapsed=1.476
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=normal_n8388608 method=tuned k=512 M=16384 n=8388608 D=8388608 Dprime=8388608 sig=0 status=ok sort_s=0.000000 post_s=0.338778 dp_s=0.033318 group_s=0.000000 atoms_s=0.056133 collapse_s=0.206850 refine_s=0.030638 sse=85.766410406342047 lib_cost=0 exact_sse=85.765454827572555 ree_pct=0.00111418 coarse_sse=85.790911346317344 coarse_ree_pct=0.0296816 k_eff=512 atoms=8388608 G=16384 collapse_passes=10 collapse_merges=8372224 merges_per_pass=3923304,2081899,1111910,594453,316989,168985,89642,47509,25174,12359 refine_sweeps=714 refine_moves=71736 reps=3 peak_rss_mb=740.6 q=0.9
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell sig5 /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/normal_n8388608.sorted.f64 normal_n8388608 512 3 85.765454827572555 --q=0.5 rc=0 elapsed=0.876
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=normal_n8388608 method=sig5 k=512 M=16384 n=8388608 D=8388608 Dprime=462310 sig=5 status=ok sort_s=0.000000 post_s=0.195911 dp_s=0.033012 group_s=0.042032 atoms_s=0.006643 collapse_s=0.022200 refine_s=0.079530 sse=85.767384144628593 lib_cost=0 exact_sse=85.765454827572555 ree_pct=0.00224953 coarse_sse=85.789184303579788 coarse_ree_pct=0.0276679 k_eff=512 atoms=462310 G=16384 collapse_passes=10 collapse_merges=445926 merges_per_pass=115595,98122,68667,49198,35767,26460,19304,13745,9845,9223 refine_sweeps=563 refine_moves=56919 reps=3 peak_rss_mb=450.5 q=0.5
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell sig5 /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/normal_n8388608.sorted.f64 normal_n8388608 512 3 85.765454827572555 --q=0.75 rc=0 elapsed=0.889
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=normal_n8388608 method=sig5 k=512 M=16384 n=8388608 D=8388608 Dprime=462310 sig=5 status=ok sort_s=0.000000 post_s=0.197346 dp_s=0.033291 group_s=0.042009 atoms_s=0.006551 collapse_s=0.014073 refine_s=0.089136 sse=85.766584643022526 lib_cost=0 exact_sse=85.765454827572555 ree_pct=0.00131733 coarse_sse=85.791707221160337 coarse_ree_pct=0.0306095 k_eff=512 atoms=462310 G=16384 collapse_passes=7 collapse_merges=445926 merges_per_pass=184811,109028,65164,40470,24703,15005,6745 refine_sweeps=734 refine_moves=70336 reps=3 peak_rss_mb=502.5 q=0.75
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell sig5 /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/normal_n8388608.sorted.f64 normal_n8388608 512 3 85.765454827572555 --q=0.9 rc=0 elapsed=0.884
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=normal_n8388608 method=sig5 k=512 M=16384 n=8388608 D=8388608 Dprime=462310 sig=5 status=ok sort_s=0.000000 post_s=0.195921 dp_s=0.031711 group_s=0.042058 atoms_s=0.006794 collapse_s=0.010426 refine_s=0.092865 sse=85.767313488219813 lib_cost=0 exact_sse=85.765454827572555 ree_pct=0.00216714 coarse_sse=85.791777222651731 coarse_ree_pct=0.0306911 k_eff=512 atoms=462310 G=16384 collapse_passes=6 collapse_merges=445926 merges_per_pass=209242,114514,63124,34487,18824,5735 refine_sweeps=869 refine_moves=75444 reps=3 peak_rss_mb=451.2 q=0.9
+
+CELL dataset=lognormal_n8388608 method=sort k=0 M=0 n=8388608 D=8388608 Dprime=8388608 status=ok sort_s=0.565069 post_s=0 peak_rss_mb=193.3
+
+rc=0
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/lognormal_n8388608.sorted.f64 lognormal_n8388608 64 3 rc=0 elapsed=36.693
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=lognormal_n8388608 method=wilber k=64 M=0 n=8388608 D=8388608 Dprime=8388608 status=ok sort_s=0.000000 post_s=9.183683 dp_s=9.183683 group_s=0 atoms_s=0 collapse_s=0 refine_s=0 sse=36987.848107977181 lib_cost=36987.848094281289 exact_sse=36987.848107977181 ree_pct=0 coarse_sse=36987.848107977181 k_eff=64 atoms=8388608 G=8388608 collapse_passes=0 collapse_merges=0 merges_per_pass=0 refine_sweeps=0 refine_moves=0 reps=3 peak_rss_mb=1103.7
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/pristine_cell wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/lognormal_n8388608.sorted.f64 lognormal_n8388608 64 3 rc=0 elapsed=35.775
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=lognormal_n8388608 method=wilber_pristine k=64 M=0 n=8388608 D=8388608 Dprime=8388608 status=ok sort_s=0.000000 post_s=8.941473 dp_s=8.941473 group_s=0 atoms_s=0 collapse_s=0 refine_s=0 sse=36987.848107977181 lib_cost=36987.848094281107 exact_sse=36987.848107977181 ree_pct=0 coarse_sse=36987.848107977181 k_eff=64 atoms=8388608 G=8388608 collapse_passes=0 collapse_merges=0 merges_per_pass=0 refine_sweeps=0 refine_moves=0 reps=3 peak_rss_mb=919.5
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell sig5exact /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/lognormal_n8388608.sorted.f64 lognormal_n8388608 64 3 36987.848107977181 rc=0 elapsed=1.234
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=lognormal_n8388608 method=sig5exact k=64 M=4096 n=8388608 D=8388608 Dprime=244439 sig=5 status=ok sort_s=0.000000 post_s=0.289704 dp_s=0.246353 group_s=0.027787 atoms_s=0.003104 collapse_s=0.000051 refine_s=0.000000 sse=36987.851085755203 lib_cost=0 exact_sse=36987.848107977181 ree_pct=8.05069e-06 coarse_sse=36987.851085755203 coarse_ree_pct=8.05069e-06 k_eff=64 atoms=244439 G=244439 collapse_passes=0 collapse_merges=0 merges_per_pass=0 refine_sweeps=0 refine_moves=0 reps=3 peak_rss_mb=114.5 q=0.75
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell sig5 /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/lognormal_n8388608.sorted.f64 lognormal_n8388608 64 3 36987.848107977181 rc=0 elapsed=0.674
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=lognormal_n8388608 method=sig5 k=64 M=4096 n=8388608 D=8388608 Dprime=244439 sig=5 status=ok sort_s=0.000000 post_s=0.145168 dp_s=0.006425 group_s=0.028051 atoms_s=0.002993 collapse_s=0.010130 refine_s=0.085289 sse=36988.014503818988 lib_cost=0 exact_sse=36987.848107977181 ree_pct=0.000449866 coarse_sse=36989.282531980782 coarse_ree_pct=0.0038781 k_eff=64 atoms=244439 G=4096 collapse_passes=6 collapse_merges=240343 merges_per_pass=92886,58329,36842,22439,13575,16272 refine_sweeps=6264 refine_moves=69509 reps=3 peak_rss_mb=421.4 q=0.75
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/lognormal_n8388608.sorted.f64 lognormal_n8388608 256 3 rc=0 elapsed=42.238
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=lognormal_n8388608 method=wilber k=256 M=0 n=8388608 D=8388608 Dprime=8388608 status=ok sort_s=0.000000 post_s=10.585656 dp_s=10.585656 group_s=0 atoms_s=0 collapse_s=0 refine_s=0 sse=2176.9216219676991 lib_cost=2176.92160830583 exact_sse=2176.9216219676991 ree_pct=0 coarse_sse=2176.9216219676991 k_eff=256 atoms=8388608 G=8388608 collapse_passes=0 collapse_merges=0 merges_per_pass=0 refine_sweeps=0 refine_moves=0 reps=3 peak_rss_mb=970.5
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/pristine_cell wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/lognormal_n8388608.sorted.f64 lognormal_n8388608 256 3 rc=0 elapsed=41.087
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=lognormal_n8388608 method=wilber_pristine k=256 M=0 n=8388608 D=8388608 Dprime=8388608 status=ok sort_s=0.000000 post_s=10.226709 dp_s=10.226709 group_s=0 atoms_s=0 collapse_s=0 refine_s=0 sse=2176.9216219676991 lib_cost=2176.921608306182 exact_sse=2176.9216219676991 ree_pct=0 coarse_sse=2176.9216219676991 k_eff=256 atoms=8388608 G=8388608 collapse_passes=0 collapse_merges=0 merges_per_pass=0 refine_sweeps=0 refine_moves=0 reps=3 peak_rss_mb=854.3
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell sig5exact /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/lognormal_n8388608.sorted.f64 lognormal_n8388608 256 3 2176.9216219676991 rc=0 elapsed=1.515
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=lognormal_n8388608 method=sig5exact k=256 M=8192 n=8388608 D=8388608 Dprime=244439 sig=5 status=ok sort_s=0.000000 post_s=0.359842 dp_s=0.316471 group_s=0.027962 atoms_s=0.003052 collapse_s=0.000042 refine_s=0.000000 sse=2176.9248528427461 lib_cost=0 exact_sse=2176.9216219676991 ree_pct=0.000148415 coarse_sse=2176.9248528427461 coarse_ree_pct=0.000148415 k_eff=256 atoms=244439 G=244439 collapse_passes=0 collapse_merges=0 merges_per_pass=0 refine_sweeps=0 refine_moves=0 reps=3 peak_rss_mb=108.8 q=0.75
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell sig5 /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/lognormal_n8388608.sorted.f64 lognormal_n8388608 256 3 2176.9216219676991 rc=0 elapsed=0.825
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=lognormal_n8388608 method=sig5 k=256 M=8192 n=8388608 D=8388608 Dprime=244439 sig=5 status=ok sort_s=0.000000 post_s=0.183727 dp_s=0.019039 group_s=0.028099 atoms_s=0.003431 collapse_s=0.009474 refine_s=0.111434 sse=2176.9555608115538 lib_cost=0 exact_sse=2176.9216219676991 ree_pct=0.00155903 coarse_sse=2177.4167790605038 coarse_ree_pct=0.0227457 k_eff=256 atoms=244439 G=8192 collapse_passes=6 collapse_merges=236247 merges_per_pass=92886,58329,36842,22439,13575,12176 refine_sweeps=2939 refine_moves=102163 reps=3 peak_rss_mb=423.7 q=0.75
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/lognormal_n8388608.sorted.f64 lognormal_n8388608 512 3 rc=0 elapsed=35.545
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=lognormal_n8388608 method=wilber k=512 M=0 n=8388608 D=8388608 Dprime=8388608 status=ok sort_s=0.000000 post_s=8.874945 dp_s=8.874945 group_s=0 atoms_s=0 collapse_s=0 refine_s=0 sse=525.09981485355218 lib_cost=525.09980121343494 exact_sse=525.09981485355218 ree_pct=0 coarse_sse=525.09981485355218 k_eff=512 atoms=8388608 G=8388608 collapse_passes=0 collapse_merges=0 merges_per_pass=0 refine_sweeps=0 refine_moves=0 reps=3 peak_rss_mb=559.1
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/pristine_cell wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/lognormal_n8388608.sorted.f64 lognormal_n8388608 512 3 rc=0 elapsed=35.339
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=lognormal_n8388608 method=wilber_pristine k=512 M=0 n=8388608 D=8388608 Dprime=8388608 status=ok sort_s=0.000000 post_s=8.831289 dp_s=8.831289 group_s=0 atoms_s=0 collapse_s=0 refine_s=0 sse=525.09981485355218 lib_cost=525.09980121302283 exact_sse=525.09981485355218 ree_pct=0 coarse_sse=525.09981485355218 k_eff=512 atoms=8388608 G=8388608 collapse_passes=0 collapse_merges=0 merges_per_pass=0 refine_sweeps=0 refine_moves=0 reps=3 peak_rss_mb=490.8
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell sig5exact /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/lognormal_n8388608.sorted.f64 lognormal_n8388608 512 3 525.09981485355218 rc=0 elapsed=1.530
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=lognormal_n8388608 method=sig5exact k=512 M=16384 n=8388608 D=8388608 Dprime=244439 sig=5 status=ok sort_s=0.000000 post_s=0.363165 dp_s=0.319319 group_s=0.027842 atoms_s=0.003098 collapse_s=0.000045 refine_s=0.000000 sse=525.10347621970516 lib_cost=0 exact_sse=525.09981485355218 ree_pct=0.000697271 coarse_sse=525.10347621970516 coarse_ree_pct=0.000697271 k_eff=512 atoms=244439 G=244439 collapse_passes=0 collapse_merges=0 merges_per_pass=0 refine_sweeps=0 refine_moves=0 reps=3 peak_rss_mb=145.0 q=0.75
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell sig5 /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/lognormal_n8388608.sorted.f64 lognormal_n8388608 512 3 525.09981485355218 rc=0 elapsed=0.831
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=lognormal_n8388608 method=sig5 k=512 M=16384 n=8388608 D=8388608 Dprime=244439 sig=5 status=ok sort_s=0.000000 post_s=0.185702 dp_s=0.033278 group_s=0.028051 atoms_s=0.003299 collapse_s=0.008142 refine_s=0.100560 sse=525.1077037473666 lib_cost=0 exact_sse=525.09981485355218 ree_pct=0.00150236 coarse_sse=525.22394198261748 coarse_ree_pct=0.0236388 k_eff=512 atoms=244439 G=16384 collapse_passes=6 collapse_merges=228055 merges_per_pass=92886,58329,36842,22439,13575,3984 refine_sweeps=1092 refine_moves=57475 reps=3 peak_rss_mb=422.0 q=0.75
+
+CELL dataset=audio method=sort k=0 M=0 n=8168256 D=7295677 Dprime=7295677 status=ok sort_s=0.500637 post_s=0 peak_rss_mb=188.2
+
+rc=0
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/audio.sorted.f64 audio 64 3 rc=0 elapsed=37.794
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=audio method=wilber k=64 M=0 n=8168256 D=7295677 Dprime=7295677 status=ok sort_s=0.000000 post_s=9.449963 dp_s=9.449963 group_s=0 atoms_s=0 collapse_s=0 refine_s=0 sse=164.53674044066531 lib_cost=164.53674044329205 exact_sse=164.53674044066531 ree_pct=0 coarse_sse=164.53674044066531 k_eff=64 atoms=8168256 G=8168256 collapse_passes=0 collapse_merges=0 merges_per_pass=0 refine_sweeps=0 refine_moves=0 reps=3 peak_rss_mb=1055.8
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/pristine_cell wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/audio.sorted.f64 audio 64 3 rc=0 elapsed=37.389
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=audio method=wilber_pristine k=64 M=0 n=8168256 D=7295677 Dprime=7295677 status=ok sort_s=0.000000 post_s=9.349609 dp_s=9.349609 group_s=0 atoms_s=0 collapse_s=0 refine_s=0 sse=164.53674044066531 lib_cost=164.53674044329685 exact_sse=164.53674044066531 ree_pct=0 coarse_sse=164.53674044066531 k_eff=64 atoms=8168256 G=8168256 collapse_passes=0 collapse_merges=0 merges_per_pass=0 refine_sweeps=0 refine_moves=0 reps=3 peak_rss_mb=948.7
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell sig5exact /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/audio.sorted.f64 audio 64 3 164.53674044066531 rc=0 elapsed=1.264
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=audio method=sig5exact k=64 M=4096 n=8168256 D=7295677 Dprime=552603 sig=5 status=ok sort_s=0.000000 post_s=0.295640 dp_s=0.228314 group_s=0.047785 atoms_s=0.007168 collapse_s=0.000086 refine_s=0.000000 sse=164.5367506849727 lib_cost=0 exact_sse=164.53674044066531 ree_pct=6.22615e-06 coarse_sse=164.5367506849727 coarse_ree_pct=6.22615e-06 k_eff=64 atoms=552603 G=552603 collapse_passes=0 collapse_merges=0 merges_per_pass=0 refine_sweeps=0 refine_moves=0 reps=3 peak_rss_mb=164.6 q=0.75
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell sig5 /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/audio.sorted.f64 audio 64 3 164.53674044066531 rc=0 elapsed=0.683
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=audio method=sig5 k=64 M=4096 n=8168256 D=7295677 Dprime=552603 sig=5 status=ok sort_s=0.000000 post_s=0.145990 dp_s=0.005060 group_s=0.047994 atoms_s=0.007916 collapse_s=0.017964 refine_s=0.055473 sse=164.53729558443183 lib_cost=0 exact_sse=164.53674044066531 ree_pct=0.000337398 coarse_sse=164.54920930637294 coarse_ree_pct=0.00757817 k_eff=64 atoms=552603 G=4096 collapse_passes=8 collapse_merges=548507 merges_per_pass=211308,131836,82073,50762,30189,18467,11109,12763 refine_sweeps=1123 refine_moves=32349 reps=3 peak_rss_mb=488.1 q=0.75
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/audio.sorted.f64 audio 256 3 rc=0 elapsed=43.389
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=audio method=wilber k=256 M=0 n=8168256 D=7295677 Dprime=7295677 status=ok sort_s=0.000000 post_s=10.801429 dp_s=10.801429 group_s=0 atoms_s=0 collapse_s=0 refine_s=0 sse=10.479692247520802 lib_cost=10.479692249787387 exact_sse=10.479692247520802 ree_pct=0 coarse_sse=10.479692247520802 k_eff=256 atoms=8168256 G=8168256 collapse_passes=0 collapse_merges=0 merges_per_pass=0 refine_sweeps=0 refine_moves=0 reps=3 peak_rss_mb=873.0
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/pristine_cell wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/audio.sorted.f64 audio 256 3 rc=0 elapsed=43.091
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=audio method=wilber_pristine k=256 M=0 n=8168256 D=7295677 Dprime=7295677 status=ok sort_s=0.000000 post_s=10.879962 dp_s=10.879962 group_s=0 atoms_s=0 collapse_s=0 refine_s=0 sse=10.479692247520802 lib_cost=10.479692249793757 exact_sse=10.479692247520802 ree_pct=0 coarse_sse=10.479692247520802 k_eff=256 atoms=8168256 G=8168256 collapse_passes=0 collapse_merges=0 merges_per_pass=0 refine_sweeps=0 refine_moves=0 reps=3 peak_rss_mb=794.5
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell sig5exact /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/audio.sorted.f64 audio 256 3 10.479692247520802 rc=0 elapsed=3.034
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=audio method=sig5exact k=256 M=8192 n=8168256 D=7295677 Dprime=552603 sig=5 status=ok sort_s=0.000000 post_s=0.739115 dp_s=0.671771 group_s=0.047909 atoms_s=0.007151 collapse_s=0.000086 refine_s=0.000000 sse=10.479700631328464 lib_cost=0 exact_sse=10.479692247520802 ree_pct=8.00005e-05 coarse_sse=10.479700631328464 coarse_ree_pct=8.00005e-05 k_eff=256 atoms=552603 G=552603 collapse_passes=0 collapse_merges=0 merges_per_pass=0 refine_sweeps=0 refine_moves=0 reps=3 peak_rss_mb=155.1 q=0.75
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell sig5 /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/audio.sorted.f64 audio 256 3 10.479692247520802 rc=0 elapsed=0.826
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=audio method=sig5 k=256 M=8192 n=8168256 D=7295677 Dprime=552603 sig=5 status=ok sort_s=0.000000 post_s=0.183710 dp_s=0.018401 group_s=0.047963 atoms_s=0.007973 collapse_s=0.017137 refine_s=0.080371 sse=10.479885399026365 lib_cost=0 exact_sse=10.479692247520802 ree_pct=0.0018431 coarse_sse=10.482860255408298 coarse_ree_pct=0.03023 k_eff=256 atoms=552603 G=8192 collapse_passes=8 collapse_merges=544411 merges_per_pass=211308,131836,82073,50762,30189,18467,11109,8667 refine_sweeps=1483 refine_moves=73975 reps=3 peak_rss_mb=450.1 q=0.75
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/audio.sorted.f64 audio 512 3 rc=0 elapsed=46.498
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=audio method=wilber k=512 M=0 n=8168256 D=7295677 Dprime=7295677 status=ok sort_s=0.000000 post_s=11.605142 dp_s=11.605142 group_s=0 atoms_s=0 collapse_s=0 refine_s=0 sse=2.6154343939069027 lib_cost=2.6154343961612736 exact_sse=2.6154343939069027 ree_pct=0 coarse_sse=2.6154343939069027 k_eff=512 atoms=8168256 G=8168256 collapse_passes=0 collapse_merges=0 merges_per_pass=0 refine_sweeps=0 refine_moves=0 reps=3 peak_rss_mb=517.6
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/pristine_cell wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/audio.sorted.f64 audio 512 3 rc=0 elapsed=46.428
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=audio method=wilber_pristine k=512 M=0 n=8168256 D=7295677 Dprime=7295677 status=ok sort_s=0.000000 post_s=11.593496 dp_s=11.593496 group_s=0 atoms_s=0 collapse_s=0 refine_s=0 sse=2.6154343939069027 lib_cost=2.6154343961611142 exact_sse=2.6154343939069027 ree_pct=0 coarse_sse=2.6154343939069027 k_eff=512 atoms=8168256 G=8168256 collapse_passes=0 collapse_merges=0 merges_per_pass=0 refine_sweeps=0 refine_moves=0 reps=3 peak_rss_mb=442.3
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell sig5exact /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/audio.sorted.f64 audio 512 3 2.6154343939069027 rc=0 elapsed=3.483
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=audio method=sig5exact k=512 M=16384 n=8168256 D=7295677 Dprime=552603 sig=5 status=ok sort_s=0.000000 post_s=0.851135 dp_s=0.784401 group_s=0.048049 atoms_s=0.007069 collapse_s=0.000088 refine_s=0.000000 sse=2.6154428728800285 lib_cost=0 exact_sse=2.6154343939069027 ree_pct=0.00032419 coarse_sse=2.6154428728800285 coarse_ree_pct=0.00032419 k_eff=512 atoms=552603 G=552603 collapse_passes=0 collapse_merges=0 merges_per_pass=0 refine_sweeps=0 refine_moves=0 reps=3 peak_rss_mb=154.9 q=0.75
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell sig5 /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/audio.sorted.f64 audio 512 3 2.6154343939069027 rc=0 elapsed=0.885
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=audio method=sig5 k=512 M=16384 n=8168256 D=7295677 Dprime=552603 sig=5 status=ok sort_s=0.000000 post_s=0.198214 dp_s=0.043604 group_s=0.047948 atoms_s=0.007685 collapse_s=0.017790 refine_s=0.069759 sse=2.6154843614870522 lib_cost=0 exact_sse=2.6154343939069027 ree_pct=0.00191049 coarse_sse=2.6162306876997707 coarse_ree_pct=0.0304459 k_eff=512 atoms=552603 G=16384 collapse_passes=7 collapse_merges=536219 merges_per_pass=211308,131836,82073,50762,30189,18467,11584 refine_sweeps=431 refine_moves=48683 reps=3 peak_rss_mb=524.5 q=0.75
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell tuned /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/audio.sorted.f64 audio 512 3 2.6154343939069027 --q=0.5 rc=0 elapsed=1.873
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=audio method=tuned k=512 M=16384 n=8168256 D=7295677 Dprime=7295677 sig=0 status=ok sort_s=0.000000 post_s=0.440084 dp_s=0.043752 group_s=0.000000 atoms_s=0.053061 collapse_s=0.304625 refine_s=0.027755 sse=2.6154744408213757 lib_cost=0 exact_sse=2.6154343939069027 ree_pct=0.00153118 coarse_sse=2.6161716509297208 coarse_ree_pct=0.0281887 k_eff=512 atoms=7295677 G=16384 collapse_passes=16 collapse_merges=7279293 merges_per_pass=2264049,1566572,1097113,752249,506738,345703,236188,161318,110741,76243,52978,36901,25905,18281,12934,15380 refine_sweeps=683 refine_moves=51687 reps=3 peak_rss_mb=684.7 q=0.5
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell tuned /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/audio.sorted.f64 audio 512 3 2.6154343939069027 --q=0.75 rc=0 elapsed=1.503
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=audio method=tuned k=512 M=16384 n=8168256 D=7295677 Dprime=7295677 sig=0 status=ok sort_s=0.000000 post_s=0.350086 dp_s=0.042479 group_s=0.000000 atoms_s=0.054948 collapse_s=0.216560 refine_s=0.024352 sse=2.6154907873225866 lib_cost=0 exact_sse=2.6154343939069027 ree_pct=0.00215618 coarse_sse=2.6161507352802587 coarse_ree_pct=0.027389 k_eff=512 atoms=7295677 G=16384 collapse_passes=12 collapse_merges=7279293 merges_per_pass=3001200,1753133,1044834,620818,366303,213325,123435,71367,41681,24459,14364,4374 refine_sweeps=604 refine_moves=53329 reps=3 peak_rss_mb=684.5 q=0.75
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell tuned /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/audio.sorted.f64 audio 512 3 2.6154343939069027 --q=0.9 rc=0 elapsed=1.350
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=audio method=tuned k=512 M=16384 n=8168256 D=7295677 Dprime=7295677 sig=0 status=ok sort_s=0.000000 post_s=0.309506 dp_s=0.042817 group_s=0.000000 atoms_s=0.052930 collapse_s=0.182330 refine_s=0.019327 sse=2.6155022978651208 lib_cost=0 exact_sse=2.6154343939069027 ree_pct=0.00259628 coarse_sse=2.6161768316358089 coarse_ree_pct=0.0283868 k_eff=512 atoms=7295677 G=16384 collapse_passes=10 collapse_merges=7279293 merges_per_pass=3390919,1813494,973871,522440,279111,148270,78550,41620,22134,8884 refine_sweeps=476 refine_moves=52881 reps=3 peak_rss_mb=684.2 q=0.9
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell sig5 /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/audio.sorted.f64 audio 512 3 2.6154343939069027 --q=0.5 rc=0 elapsed=0.925
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=audio method=sig5 k=512 M=16384 n=8168256 D=7295677 Dprime=552603 sig=5 status=ok sort_s=0.000000 post_s=0.207711 dp_s=0.036506 group_s=0.047920 atoms_s=0.007035 collapse_s=0.023837 refine_s=0.080931 sse=2.6155167786076725 lib_cost=0 exact_sse=2.6154343939069027 ree_pct=0.00314994 coarse_sse=2.6162050952122966 coarse_ree_pct=0.0294674 k_eff=512 atoms=552603 G=16384 collapse_passes=10 collapse_merges=536219 merges_per_pass=144499,110398,80659,60540,44280,31978,22619,16175,11747,13324 refine_sweeps=775 refine_moves=56444 reps=3 peak_rss_mb=450.4 q=0.5
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell sig5 /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/audio.sorted.f64 audio 512 3 2.6154343939069027 --q=0.75 rc=0 elapsed=0.887
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=audio method=sig5 k=512 M=16384 n=8168256 D=7295677 Dprime=552603 sig=5 status=ok sort_s=0.000000 post_s=0.196159 dp_s=0.043138 group_s=0.047891 atoms_s=0.008207 collapse_s=0.017936 refine_s=0.068174 sse=2.6154843614870522 lib_cost=0 exact_sse=2.6154343939069027 ree_pct=0.00191049 coarse_sse=2.6162306876997707 coarse_ree_pct=0.0304459 k_eff=512 atoms=552603 G=16384 collapse_passes=7 collapse_merges=536219 merges_per_pass=211308,131836,82073,50762,30189,18467,11584 refine_sweeps=431 refine_moves=48683 reps=3 peak_rss_mb=537.5 q=0.75
+
+CMD /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/build/scale_cell sig5 /Users/sriram/Desktop/Learning/Lex/run1/bot_v10_rerun_mac_pack/work/audio.sorted.f64 audio 512 3 2.6154343939069027 --q=0.9 rc=0 elapsed=0.921
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+setting search strategy to: 1
+CELL dataset=audio method=sig5 k=512 M=16384 n=8168256 D=7295677 Dprime=552603 sig=5 status=ok sort_s=0.000000 post_s=0.206729 dp_s=0.044940 group_s=0.047923 atoms_s=0.007766 collapse_s=0.012096 refine_s=0.082534 sse=2.6154819000520488 lib_cost=0 exact_sse=2.6154343939069027 ree_pct=0.00181638 coarse_sse=2.6162810212178615 coarse_ree_pct=0.0323704 k_eff=512 atoms=552603 G=16384 collapse_passes=6 collapse_merges=536219 merges_per_pass=250712,138136,75473,40658,21944,9296 refine_sweeps=782 refine_moves=56615 reps=3 peak_rss_mb=450.4 q=0.9
+

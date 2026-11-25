@@ -1,0 +1,2 @@
+section,dataset,path,n,d,k,method,status,sse,sse_exact,ree,n_centers,elapsed_s,driver_s,peak_rss_bytes,peak_rss_mib,timeout_s,error
+ties,ties_d1000,work/ties_d1000_n20000.txt,20000,1000,2000,hirc,abort,,1.184371403074074e-22,,,0.03,,2637824,2.515625,300,"Assertion failed: (intercept_guess > 0), function compute, file kmeans_hirschberg_larmore.cpp, line 67."

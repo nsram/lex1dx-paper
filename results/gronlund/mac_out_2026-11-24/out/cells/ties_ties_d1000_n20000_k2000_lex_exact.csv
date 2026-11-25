@@ -1,0 +1,2 @@
+section,dataset,path,n,d,k,method,status,sse,sse_exact,ree,n_centers,elapsed_s,driver_s,peak_rss_bytes,peak_rss_mib,timeout_s,error
+ties,ties_d1000,work/ties_d1000_n20000.txt,20000,1000,2000,lex_exact,ok,1.184371403074074e-22,1.184371403074074e-22,0.0,,0.01,,6717440,6.40625,300,

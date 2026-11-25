@@ -1,0 +1,2 @@
+section,dataset,path,n,d,k,method,status,sse,sse_exact,ree,n_centers,elapsed_s,driver_s,peak_rss_bytes,peak_rss_mib,timeout_s,error
+sim,normal,work/normal_n262144.txt,262144,262144,8,lex_hybrid_M4096,ok,9022.87324202905,9022.872718938139,5.7973876854730604e-08,,0.07,,22511616,21.46875,300,

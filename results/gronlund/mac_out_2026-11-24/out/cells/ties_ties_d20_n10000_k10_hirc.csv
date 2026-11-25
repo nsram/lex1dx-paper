@@ -1,0 +1,2 @@
+section,dataset,path,n,d,k,method,status,sse,sse_exact,ree,n_centers,elapsed_s,driver_s,peak_rss_bytes,peak_rss_mib,timeout_s,error
+ties,ties_d20,work/ties_d20_n10000.txt,10000,20,10,hirc,ok,2498.3025393792695,2498.3025393792095,2.402697406372928e-14,10,0.0,0.001617292,2031616,1.9375,300,

@@ -1,0 +1,2 @@
+section,dataset,path,n,d,k,method,status,sse,sse_exact,ree,n_centers,elapsed_s,driver_s,peak_rss_bytes,peak_rss_mib,timeout_s,error
+sim,lognormal,work/lognormal_n262144.txt,262144,262144,8,monotone:compute,ok,60087.901447963886,60087.90144791677,7.841695312041135e-13,0,0.1,0.063951333,16302080,15.546875,300,
