@@ -5,7 +5,7 @@ and local exchanges* by N. Sriram (draft dated 25 November 2026, file prefix
 `lex1dx_paper_2026-11-25_r5`, with supplement
 `lex1dx_supplement_2026-11-25_r5`).
 
-The package is archived at Zenodo, https://doi.org/10.5281/zenodo.24543220.
+The paper preprint is at Zenodo, https://doi.org/10.5281/zenodo.24543220.
 
 LEX is the C++ library [lex1dx](https://github.com/nsram/lex1dx), with a Scala
 port and Python and R interfaces. This repository holds the Mac benchmark packs
