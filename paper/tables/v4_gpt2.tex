@@ -1,0 +1,16 @@
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{@{}ll rrr rrr rrr@{}}
+\toprule
+ &  & \multicolumn{3}{c}{Exact reference} & \multicolumn{3}{c}{Full-precision LEX} & \multicolumn{3}{c}{Precision-grouped LEX} \\
+\cmidrule(lr){3-5}\cmidrule(lr){6-8}\cmidrule(lr){9-11}
+Matrix & $k$ & Time (s) & RSS &  & Time (s) & RSS & REE (\%) & Time (s) & RSS & REE (\%) \\
+\midrule
+h17 $c_{\mathrm{attn}}$ & 64 & 4.576 & 531 &  & 0.189 (24.2$\times$) & 427 & 0.00016 & 0.066 (68.9$\times$) & 97 & 0.00008 \\
+ & 256 & 7.167 & 616 &  & 0.206 (34.9$\times$) & 429 & 0.00241 & 0.088 (81.2$\times$) & 98 & 0.00257 \\
+ & 512 & 4.326 & 294 &  & 0.236 (18.3$\times$) & 429 & 0.00133 & 0.109 (39.9$\times$) & 121 & 0.00173 \\
+\addlinespace
+h35 $c_{\mathrm{proj}}$ & 64 & 6.740 & 744 &  & 0.242 (27.8$\times$) & 566 & 0.00047 & 0.078 (86.2$\times$) & 112 & 0.00015 \\
+ & 256 & 7.820 & 763 &  & 0.250 (31.3$\times$) & 567 & 0.00121 & 0.091 (86.0$\times$) & 113 & 0.00074 \\
+ & 512 & 7.213 & 404 &  & 0.285 (25.3$\times$) & 567 & 0.00146 & 0.127 (56.9$\times$) & 114 & 0.00210 \\
+\bottomrule
+\end{tabular}

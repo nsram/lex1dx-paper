@@ -1,0 +1,8 @@
+This folder is the output of packs/bot_v10_rerun_mac_pack.
+
+It is a complete rerun of the v8 scaling grid and the v9 controls, but
+with a different sig5 pipeline (raw-data Refine and a k-preserving
+digit fallback). The paper reports the group-level Refine path, so the
+figures and tables are built from results/mac_out_v8 and
+results/mac_out_v9, not from these files. The CSVs are included for
+provenance.

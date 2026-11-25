@@ -1,0 +1,7 @@
+Copied from the v11 partial Ckmeans run (mac_out_v11_partial).
+Ckmeans.1d.dp 4.3.6 matched rerun (Mac, method=linear, v10 seeds/inputs).
+
+These rows are included for provenance. The paper tables use the later
+ok sorted rows from results/ckmeans_matched_k64_256 (mac_out_v13) for
+k in {16, 64, 128, 256, 512}, and results/mac_out_kgrid_fill for k in
+{32, 4, 8}.

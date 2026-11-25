@@ -1,0 +1,7 @@
+CXX_STD = CXX17
+PKG_CPPFLAGS = -I.
+# No fused multiply-add contraction: results stay bit-identical to the C++ library on every platform.
+# Required: without it, FMA hardware (arm64, x86-64 with -march=haswell or later) fuses a*b+c and
+# results change in the last bits (the fma_60 fixture case catches this on x86-64). R CMD check warns that
+# this flag is not portable; do not remove it to silence that warning.
+PKG_CXXFLAGS = -ffp-contract=off

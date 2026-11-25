@@ -1,0 +1,24 @@
+# local leftovers if a paper source is compiled beside this package
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.toc
+paper/*.synctex.gz
+
+# pack local builds and outputs
+packs/**/build/
+packs/**/rlib/
+packs/**/R-lib/
+packs/**/__pycache__/
+packs/**/out/
+packs/**/work/
+out/
+work/
+
+# Python and OS clutter
+__pycache__/
+*.pyc
+.DS_Store
+.venv*/

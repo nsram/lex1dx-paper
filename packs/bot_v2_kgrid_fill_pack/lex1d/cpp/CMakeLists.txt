@@ -1,0 +1,45 @@
+cmake_minimum_required(VERSION 3.21)
+project(lex VERSION 0.1.0 LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+if(NOT CMAKE_BUILD_TYPE AND NOT CMAKE_CONFIGURATION_TYPES)
+  set(CMAKE_BUILD_TYPE Release CACHE STRING "Build type" FORCE)
+endif()
+
+include(${CMAKE_CURRENT_LIST_DIR}/cmake/LexFloatingPoint.cmake)
+
+option(LEX_BUILD_TESTS "Build the tests" ${PROJECT_IS_TOP_LEVEL})
+option(LEX_BUILD_CLI "Build the lex_cli tool" ${PROJECT_IS_TOP_LEVEL})
+
+add_library(lex src/atoms.cpp src/collapse.cpp src/refine.cpp src/exact.cpp src/lex.cpp src/sort.cpp)
+add_library(lex::lex ALIAS lex)
+set_target_properties(lex PROPERTIES POSITION_INDEPENDENT_CODE ON)
+target_include_directories(lex PUBLIC $<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/include> $<INSTALL_INTERFACE:include>)
+lex_strict_fp(lex) # no FMA contraction, no fast-math: bit-identical results on every platform
+if(MSVC)
+  target_compile_options(lex PRIVATE /W4)
+elseif(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
+  target_compile_options(lex PRIVATE -Wall -Wextra -Wpedantic)
+endif()
+
+if(LEX_BUILD_CLI)
+  add_executable(lex_cli tools/lex_cli.cpp)
+  target_link_libraries(lex_cli PRIVATE lex)
+  lex_strict_fp(lex_cli)
+endif()
+
+if(LEX_BUILD_TESTS)
+  enable_testing()
+  foreach(t edge exact quality coarse weighted ties)
+    add_executable(test_${t} tests/test_${t}.cpp)
+    target_link_libraries(test_${t} PRIVATE lex)
+    lex_strict_fp(test_${t})
+    add_test(NAME ${t} COMMAND test_${t})
+  endforeach()
+endif()
+
+include(GNUInstallDirs)
+install(TARGETS lex EXPORT lexTargets ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR})
+install(DIRECTORY include/ DESTINATION ${CMAKE_INSTALL_INCLUDEDIR})

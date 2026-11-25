@@ -1,0 +1,11 @@
+This folder is the output of packs/bot_v1_kgrid_fill_pack.
+
+The wilber-interp and Ckmeans.1d.dp cells, and the sort rows, are the
+ones used in the paper (fill-in k in {16,32,128} and the small-k check
+at k=4,8 on Normal, N=2^20).
+
+The LEX (sig5) rows in out/lex/runs.csv are not used. That run followed
+a different Refine path than the one reported in the paper. The paper's
+precision-grouped LEX numbers at those k come from
+results/mac_out_kgrid_lex_fix, produced by packs/bot_v2_kgrid_fill_pack,
+with REE scored against the wilber SSE* in this folder.

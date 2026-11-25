@@ -1,0 +1,4 @@
+useDynLib(lex1d, .registration = TRUE)
+importFrom(Rcpp, evalCpp)
+export(ckmeans, ckmeans_exact, lex_hybrid, lex_plain)
+S3method(print, lex1d)

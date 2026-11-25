@@ -1,0 +1,9 @@
+/build/
+/out/
+/work/
+/rlib/
+/data/synth/*.f64
+/data/synth/MANIFEST_local.sha256
+__pycache__/
+*.pyc
+.DS_Store

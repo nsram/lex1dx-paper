@@ -1,0 +1,11 @@
+Vendored from github.com/gronlund/kmeans1d commit
+585386d4678000691706acdb954911be8fea1c5c
+(unpatched original is in vendor/kmeans1d/).
+
+Minimal patch, only in this directory (originals and lex1d untouched):
+- interval_sum accepts weighted items (w, wx, wx2) and uses
+  cost(i,j) = max(0, S2 - S1^2/W) over items i..j (inclusive, same
+  indexing as the unweighted cost_interval_l2).
+- kmeans_wilber has a matching constructor; k=1 centers and
+  get_actual_cost centers use the weighted mean.
+Unweighted constructor is preserved (W of each item is 1).

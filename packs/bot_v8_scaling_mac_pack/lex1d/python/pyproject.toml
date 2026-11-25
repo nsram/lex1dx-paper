@@ -1,0 +1,39 @@
+[build-system]
+requires = ["scikit-build-core>=0.10", "nanobind>=2.0"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "lex1d"
+version = "0.1.0"
+description = "LEX: fast least-squares 1-D partitioning (scalar quantization) with an exact DP, R-aligned ties"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Sriram Natarajan" }]
+dependencies = ["numpy>=1.21"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: C++",
+  "Topic :: Scientific/Engineering :: Mathematics",
+]
+
+[project.urls]
+Homepage = "https://github.com/nsram/lex1d"
+Source = "https://github.com/nsram/lex1d"
+Issues = "https://github.com/nsram/lex1d/issues"
+Changelog = "https://github.com/nsram/lex1d/blob/main/CHANGELOG.md"
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[tool.scikit-build]
+minimum-version = "build-system.requires"
+cmake.version = ">=3.21"
+build-dir = "build/{wheel_tag}"
+wheel.packages = ["src/lex"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+# fixture cases with k above the atoms clamp on purpose; test_k_above_atoms_is_clamped checks the warning
+filterwarnings = ["ignore:k = .* exceeds the number of:UserWarning"]

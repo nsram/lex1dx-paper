@@ -1,0 +1,16 @@
+build/
+build-*/
+_skbuild/
+*.egg-info/
+dist/
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+scala/target/
+scala/project/target/
+scala/project/project/
+.bsp/
+.metals/
+.bloop/
+.DS_Store

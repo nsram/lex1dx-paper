@@ -1,0 +1,22 @@
+Package: lex1d
+Type: Package
+Title: Fast Least-Squares Partition of One-Dimensional Data
+Version: 0.1.0
+Authors@R: person("Sriram", "Natarajan", email = "nsram@users.noreply.github.com",
+    role = c("aut", "cre", "cph"))
+Description: Partitions one-dimensional data into k contiguous clusters with a low
+    within-cluster sum of squares (one-dimensional k-means, optimal scalar
+    quantization). The default method seeds local refinement with an exact dynamic
+    program over a coarse summary of at most 4096 groups; an exact dynamic program
+    (Fisher 1958) <doi:10.1080/01621459.1958.10501479> is also provided. Optional
+    non-negative weights. The interface and result follow 'Ckmeans.1d.dp' for a
+    fixed k, including its tie rule. The C++ core is shared with the Python and
+    Scala implementations in the same repository.
+License: MIT + file LICENSE
+URL: https://github.com/nsram/lex1d
+BugReports: https://github.com/nsram/lex1d/issues
+Encoding: UTF-8
+Imports: Rcpp
+LinkingTo: Rcpp
+Suggests: testthat (>= 3.0.0), Ckmeans.1d.dp
+Config/testthat/edition: 3

@@ -1,0 +1,30 @@
+\setlength{\tabcolsep}{3.5pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}ll rrr rrr rrr@{}}
+\toprule
+ &  & \multicolumn{3}{c}{$k=64$} & \multicolumn{3}{c}{$k=256$} & \multicolumn{3}{c}{$k=512$} \\
+\cmidrule(lr){3-5}\cmidrule(lr){6-8}\cmidrule(lr){9-11}
+Data & Method & s & RSS & REE & s & RSS & REE & s & RSS & REE \\
+\midrule
+Uniform & Exact reference & 7.692 & 884 & — & 11.02 & 465 & — & 11.96 & 424 & — \\
+ & Exact solve on precision groups & 0.308 (25.0$\times$) & 113 & 0.00001 & 0.362 (30.4$\times$) & 110 & 0.00020 & 0.369 (32.4$\times$) & 110 & 0.00080 \\
+ & Full-precision LEX & 0.319 (24.1$\times$) & 738 & 0.00026 & 0.349 (31.6$\times$) & 740 & 0.00173 & 0.359 (33.3$\times$) & 740 & 0.00134 \\
+ & Precision-grouped LEX & 0.054 (143.6$\times$) & 99 & 0.00034 & 0.072 (153.9$\times$) & 99 & 0.00453 & 0.094 (127.7$\times$) & 99 & 0.00358 \\
+\addlinespace
+Normal & Exact reference & 8.439 & 759 & — & 5.703 & 686 & — & 9.175 & 425 & — \\
+ & Exact solve on precision groups & 0.556 (15.2$\times$) & 242 & 0.00001 & 0.616 (9.3$\times$) & 222 & 0.00024 & 0.578 (15.9$\times$) & 214 & 0.00089 \\
+ & Full-precision LEX & 0.322 (26.2$\times$) & 738 & 0.00024 & 0.358 (15.9$\times$) & 746 & 0.00121 & 0.375 (24.5$\times$) & 744 & 0.00212 \\
+ & Precision-grouped LEX & 0.081 (104.1$\times$) & 129 & 0.00014 & 0.108 (52.8$\times$) & 130 & 0.00165 & 0.125 (73.6$\times$) & 130 & 0.00204 \\
+\addlinespace
+Lognormal & Exact reference & 8.961 & 800 & — & 10.45 & 695 & — & 8.860 & 507 & — \\
+ & Exact solve on precision groups & 0.290 (30.9$\times$) & 114 & 0.00001 & 0.360 (29.0$\times$) & 109 & 0.00015 & 0.366 (24.2$\times$) & 109 & 0.00070 \\
+ & Full-precision LEX & 0.304 (29.5$\times$) & 738 & 0.00064 & 0.355 (29.4$\times$) & 746 & 0.00160 & 0.375 (23.6$\times$) & 742 & 0.00189 \\
+ & Precision-grouped LEX & 0.061 (147.6$\times$) & 99 & 0.00044 & 0.077 (134.8$\times$) & 100 & 0.00206 & 0.093 (95.5$\times$) & 100 & 0.00207 \\
+\addlinespace
+Audio & Exact reference & 9.306 & 821 & — & 10.87 & 783 & — & 11.60 & 452 & — \\
+ & Exact solve on precision groups & 0.296 (31.5$\times$) & 165 & 0.00001 & 0.739 (14.7$\times$) & 163 & 0.00008 & 0.862 (13.5$\times$) & 356 & 0.00032 \\
+ & Full-precision LEX & 0.296 (31.4$\times$) & 682 & 0.00010 & 0.331 (32.8$\times$) & 687 & 0.00215 & 0.355 (32.6$\times$) & 686 & 0.00216 \\
+ & Precision-grouped LEX & 0.091 (102.3$\times$) & 136 & 0.00034 & 0.118 (92.4$\times$) & 137 & 0.00168 & 0.135 (86.1$\times$) & 137 & 0.00209 \\
+\bottomrule
+\end{tabular}%
+}

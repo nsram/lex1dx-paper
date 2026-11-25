@@ -1,0 +1,7 @@
+# Used only by bash run/figs_tables.sh (scripts/v4_figs_tables.py).
+# The Mac runs used Python 3.13.18 and NumPy 2.3.5. These pins are a
+# working set on Python 3.12+ for regenerating figures and tables from
+# the packaged CSVs; they are not a bit-for-bit match of the Mac image.
+numpy>=2.3
+pandas>=2.2
+matplotlib>=3.9

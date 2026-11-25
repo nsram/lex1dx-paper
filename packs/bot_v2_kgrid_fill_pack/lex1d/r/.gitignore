@@ -1,0 +1,9 @@
+# copied from ../cpp by tools/sync_core.sh (configure runs it); not tracked
+src/*.cpp
+!src/lex1d_r.cpp
+!src/RcppExports.cpp
+src/*.hpp
+src/lex/
+src/*.o
+src/*.so
+src/*.dll

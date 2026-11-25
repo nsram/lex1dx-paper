@@ -1,0 +1,397 @@
+{
+  "numpy": "2.5.5",
+  "seed_root": 2048,
+  "stream_id": {
+    "uniform": 0,
+    "normal": 1,
+    "lognormal": 4
+  },
+  "rng": "default_rng/PCG64",
+  "requirement": "NumPy 1.17+",
+  "files": [
+    {
+      "family": "uniform",
+      "N": 65536,
+      "exponent": 16,
+      "path": "uniform_n65536.f64",
+      "bytes": 524288,
+      "sha256": "1c6e8f0996fd6b3393c9c836077f2607798bd243a5ffbd3fe49344b5534c4a24",
+      "seed_root": 2048,
+      "spawn_key": [
+        0,
+        65536
+      ],
+      "rng": "numpy.random.default_rng(SeedSequence(2048, spawn_key=(stream_id, N)))  # PCG64",
+      "params": "U(0,1)",
+      "numpy": "2.5.5"
+    },
+    {
+      "family": "uniform",
+      "N": 131072,
+      "exponent": 17,
+      "path": "uniform_n131072.f64",
+      "bytes": 1048576,
+      "sha256": "7b1db19c9831ffa6068e5b362b1bda827cc148d4dc0e11c712ad172443aad6aa",
+      "seed_root": 2048,
+      "spawn_key": [
+        0,
+        131072
+      ],
+      "rng": "numpy.random.default_rng(SeedSequence(2048, spawn_key=(stream_id, N)))  # PCG64",
+      "params": "U(0,1)",
+      "numpy": "2.5.5"
+    },
+    {
+      "family": "uniform",
+      "N": 262144,
+      "exponent": 18,
+      "path": "uniform_n262144.f64",
+      "bytes": 2097152,
+      "sha256": "39137b904162adb80b6979de32203135d3a641cfa22e390c0b8ac46c5d25c634",
+      "seed_root": 2048,
+      "spawn_key": [
+        0,
+        262144
+      ],
+      "rng": "numpy.random.default_rng(SeedSequence(2048, spawn_key=(stream_id, N)))  # PCG64",
+      "params": "U(0,1)",
+      "numpy": "2.5.5"
+    },
+    {
+      "family": "uniform",
+      "N": 524288,
+      "exponent": 19,
+      "path": "uniform_n524288.f64",
+      "bytes": 4194304,
+      "sha256": "60f8a6c623af7da7d7a9c4b4ca3a099ebeb9091067d51797387ebe6634ce8ae9",
+      "seed_root": 2048,
+      "spawn_key": [
+        0,
+        524288
+      ],
+      "rng": "numpy.random.default_rng(SeedSequence(2048, spawn_key=(stream_id, N)))  # PCG64",
+      "params": "U(0,1)",
+      "numpy": "2.5.5"
+    },
+    {
+      "family": "uniform",
+      "N": 1048576,
+      "exponent": 20,
+      "path": "uniform_n1048576.f64",
+      "bytes": 8388608,
+      "sha256": "9868a672e66263e2887a48a3a75586381888b3d054173ed1f6bc0bb47adb1541",
+      "seed_root": 2048,
+      "spawn_key": [
+        0,
+        1048576
+      ],
+      "rng": "numpy.random.default_rng(SeedSequence(2048, spawn_key=(stream_id, N)))  # PCG64",
+      "params": "U(0,1)",
+      "numpy": "2.5.5"
+    },
+    {
+      "family": "uniform",
+      "N": 2097152,
+      "exponent": 21,
+      "path": "uniform_n2097152.f64",
+      "bytes": 16777216,
+      "sha256": "c1ec267156ce21aee17aa235e10c3fc474074e76bdd9e930434e89546e998dd8",
+      "seed_root": 2048,
+      "spawn_key": [
+        0,
+        2097152
+      ],
+      "rng": "numpy.random.default_rng(SeedSequence(2048, spawn_key=(stream_id, N)))  # PCG64",
+      "params": "U(0,1)",
+      "numpy": "2.5.5"
+    },
+    {
+      "family": "uniform",
+      "N": 4194304,
+      "exponent": 22,
+      "path": "uniform_n4194304.f64",
+      "bytes": 33554432,
+      "sha256": "852792014b17fe1c4ad9d1bf6406fc55d1ea4f3784c79e31c530b2f47d80c6bc",
+      "seed_root": 2048,
+      "spawn_key": [
+        0,
+        4194304
+      ],
+      "rng": "numpy.random.default_rng(SeedSequence(2048, spawn_key=(stream_id, N)))  # PCG64",
+      "params": "U(0,1)",
+      "numpy": "2.5.5"
+    },
+    {
+      "family": "uniform",
+      "N": 8388608,
+      "exponent": 23,
+      "path": "uniform_n8388608.f64",
+      "bytes": 67108864,
+      "sha256": "346bb85acf74d710e03257b6431e26c4dbae80f1cfb28ba4fdfec2e5308809d1",
+      "seed_root": 2048,
+      "spawn_key": [
+        0,
+        8388608
+      ],
+      "rng": "numpy.random.default_rng(SeedSequence(2048, spawn_key=(stream_id, N)))  # PCG64",
+      "params": "U(0,1)",
+      "numpy": "2.5.5"
+    },
+    {
+      "family": "normal",
+      "N": 65536,
+      "exponent": 16,
+      "path": "normal_n65536.f64",
+      "bytes": 524288,
+      "sha256": "dda323b1420d1f0c1a30cbffd55ba5ea7cc171ab79dcce6a5eb303250fa8aa7e",
+      "seed_root": 2048,
+      "spawn_key": [
+        1,
+        65536
+      ],
+      "rng": "numpy.random.default_rng(SeedSequence(2048, spawn_key=(stream_id, N)))  # PCG64",
+      "params": "N(0,1)",
+      "numpy": "2.5.5"
+    },
+    {
+      "family": "normal",
+      "N": 131072,
+      "exponent": 17,
+      "path": "normal_n131072.f64",
+      "bytes": 1048576,
+      "sha256": "97cfd8f94a567540f8b3c5f3bd132213601cfdfb2341ece4fba1b7bcd453da3b",
+      "seed_root": 2048,
+      "spawn_key": [
+        1,
+        131072
+      ],
+      "rng": "numpy.random.default_rng(SeedSequence(2048, spawn_key=(stream_id, N)))  # PCG64",
+      "params": "N(0,1)",
+      "numpy": "2.5.5"
+    },
+    {
+      "family": "normal",
+      "N": 262144,
+      "exponent": 18,
+      "path": "normal_n262144.f64",
+      "bytes": 2097152,
+      "sha256": "581a78066311d898222f46f31903d3a4763dd71176ea90e90bd801cc652b0bf5",
+      "seed_root": 2048,
+      "spawn_key": [
+        1,
+        262144
+      ],
+      "rng": "numpy.random.default_rng(SeedSequence(2048, spawn_key=(stream_id, N)))  # PCG64",
+      "params": "N(0,1)",
+      "numpy": "2.5.5"
+    },
+    {
+      "family": "normal",
+      "N": 524288,
+      "exponent": 19,
+      "path": "normal_n524288.f64",
+      "bytes": 4194304,
+      "sha256": "58314e68e598ee1c7c743e4b05848af758742d0019d0009f27448226ff4021b1",
+      "seed_root": 2048,
+      "spawn_key": [
+        1,
+        524288
+      ],
+      "rng": "numpy.random.default_rng(SeedSequence(2048, spawn_key=(stream_id, N)))  # PCG64",
+      "params": "N(0,1)",
+      "numpy": "2.5.5"
+    },
+    {
+      "family": "normal",
+      "N": 1048576,
+      "exponent": 20,
+      "path": "normal_n1048576.f64",
+      "bytes": 8388608,
+      "sha256": "0332a66ca0df4368f240f20f78583b0f7de5480a6efe2de75dcbd2d8d42c1020",
+      "seed_root": 2048,
+      "spawn_key": [
+        1,
+        1048576
+      ],
+      "rng": "numpy.random.default_rng(SeedSequence(2048, spawn_key=(stream_id, N)))  # PCG64",
+      "params": "N(0,1)",
+      "numpy": "2.5.5"
+    },
+    {
+      "family": "normal",
+      "N": 2097152,
+      "exponent": 21,
+      "path": "normal_n2097152.f64",
+      "bytes": 16777216,
+      "sha256": "1cca1403fb8372cba00ef086c667641cc341b1be7fac285bc8ff48bf38e54a6b",
+      "seed_root": 2048,
+      "spawn_key": [
+        1,
+        2097152
+      ],
+      "rng": "numpy.random.default_rng(SeedSequence(2048, spawn_key=(stream_id, N)))  # PCG64",
+      "params": "N(0,1)",
+      "numpy": "2.5.5"
+    },
+    {
+      "family": "normal",
+      "N": 4194304,
+      "exponent": 22,
+      "path": "normal_n4194304.f64",
+      "bytes": 33554432,
+      "sha256": "5ad866449ef8e0f221bf6c1420853ecbc9c09b0bd01da832d8542385d6fda5b1",
+      "seed_root": 2048,
+      "spawn_key": [
+        1,
+        4194304
+      ],
+      "rng": "numpy.random.default_rng(SeedSequence(2048, spawn_key=(stream_id, N)))  # PCG64",
+      "params": "N(0,1)",
+      "numpy": "2.5.5"
+    },
+    {
+      "family": "normal",
+      "N": 8388608,
+      "exponent": 23,
+      "path": "normal_n8388608.f64",
+      "bytes": 67108864,
+      "sha256": "4010ed9b018eb291e8d0b140b9dfe08f889415107fdfaccefbce9847540ae0e1",
+      "seed_root": 2048,
+      "spawn_key": [
+        1,
+        8388608
+      ],
+      "rng": "numpy.random.default_rng(SeedSequence(2048, spawn_key=(stream_id, N)))  # PCG64",
+      "params": "N(0,1)",
+      "numpy": "2.5.5"
+    },
+    {
+      "family": "lognormal",
+      "N": 65536,
+      "exponent": 16,
+      "path": "lognormal_n65536.f64",
+      "bytes": 524288,
+      "sha256": "1ce1dc8d689a90a85d0d71efbc1d48217e3e6a0e9e151f555213c79eb0026c25",
+      "seed_root": 2048,
+      "spawn_key": [
+        4,
+        65536
+      ],
+      "rng": "numpy.random.default_rng(SeedSequence(2048, spawn_key=(stream_id, N)))  # PCG64",
+      "params": "LogNormal(0,1)",
+      "numpy": "2.5.5"
+    },
+    {
+      "family": "lognormal",
+      "N": 131072,
+      "exponent": 17,
+      "path": "lognormal_n131072.f64",
+      "bytes": 1048576,
+      "sha256": "51219f15b1e60a6c6e91786ea2938c7fccdfbbb53d033d72bc78abe304229b41",
+      "seed_root": 2048,
+      "spawn_key": [
+        4,
+        131072
+      ],
+      "rng": "numpy.random.default_rng(SeedSequence(2048, spawn_key=(stream_id, N)))  # PCG64",
+      "params": "LogNormal(0,1)",
+      "numpy": "2.5.5"
+    },
+    {
+      "family": "lognormal",
+      "N": 262144,
+      "exponent": 18,
+      "path": "lognormal_n262144.f64",
+      "bytes": 2097152,
+      "sha256": "d4ab874b59139b6f06487bc463ac7dea83ff7b9469b8556e5985b40395d4bde1",
+      "seed_root": 2048,
+      "spawn_key": [
+        4,
+        262144
+      ],
+      "rng": "numpy.random.default_rng(SeedSequence(2048, spawn_key=(stream_id, N)))  # PCG64",
+      "params": "LogNormal(0,1)",
+      "numpy": "2.5.5"
+    },
+    {
+      "family": "lognormal",
+      "N": 524288,
+      "exponent": 19,
+      "path": "lognormal_n524288.f64",
+      "bytes": 4194304,
+      "sha256": "6f60bbe64c0fa2b2b8d8e57cb6e15df29f7c5acbd2a1d70eab00a454f7f2c6ee",
+      "seed_root": 2048,
+      "spawn_key": [
+        4,
+        524288
+      ],
+      "rng": "numpy.random.default_rng(SeedSequence(2048, spawn_key=(stream_id, N)))  # PCG64",
+      "params": "LogNormal(0,1)",
+      "numpy": "2.5.5"
+    },
+    {
+      "family": "lognormal",
+      "N": 1048576,
+      "exponent": 20,
+      "path": "lognormal_n1048576.f64",
+      "bytes": 8388608,
+      "sha256": "a68f27def62521089c5c5621a332e686f8059dd9073cc928a977daeff53b3d70",
+      "seed_root": 2048,
+      "spawn_key": [
+        4,
+        1048576
+      ],
+      "rng": "numpy.random.default_rng(SeedSequence(2048, spawn_key=(stream_id, N)))  # PCG64",
+      "params": "LogNormal(0,1)",
+      "numpy": "2.5.5"
+    },
+    {
+      "family": "lognormal",
+      "N": 2097152,
+      "exponent": 21,
+      "path": "lognormal_n2097152.f64",
+      "bytes": 16777216,
+      "sha256": "8664d7d2664f1057aa09fa396b5f65e7cdcc1c46462513a9b14863e88214106e",
+      "seed_root": 2048,
+      "spawn_key": [
+        4,
+        2097152
+      ],
+      "rng": "numpy.random.default_rng(SeedSequence(2048, spawn_key=(stream_id, N)))  # PCG64",
+      "params": "LogNormal(0,1)",
+      "numpy": "2.5.5"
+    },
+    {
+      "family": "lognormal",
+      "N": 4194304,
+      "exponent": 22,
+      "path": "lognormal_n4194304.f64",
+      "bytes": 33554432,
+      "sha256": "dacb39226c94aa217455b4a04b3b0553ff891695fb6f32d9f25e4be28a05ab65",
+      "seed_root": 2048,
+      "spawn_key": [
+        4,
+        4194304
+      ],
+      "rng": "numpy.random.default_rng(SeedSequence(2048, spawn_key=(stream_id, N)))  # PCG64",
+      "params": "LogNormal(0,1)",
+      "numpy": "2.5.5"
+    },
+    {
+      "family": "lognormal",
+      "N": 8388608,
+      "exponent": 23,
+      "path": "lognormal_n8388608.f64",
+      "bytes": 67108864,
+      "sha256": "eacf66ee10d242157ba74fc57cbcbe2353057f1001686f5c6f22257ced0d7129",
+      "seed_root": 2048,
+      "spawn_key": [
+        4,
+        8388608
+      ],
+      "rng": "numpy.random.default_rng(SeedSequence(2048, spawn_key=(stream_id, N)))  # PCG64",
+      "params": "LogNormal(0,1)",
+      "numpy": "2.5.5"
+    }
+  ]
+}

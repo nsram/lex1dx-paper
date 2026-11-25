@@ -1,0 +1,145 @@
+CELL dataset=uniform_n1048576 method=sort k=0 M=0 n=1048576 D=1048576 Dprime=1048576 status=ok sort_s=0.058041 post_s=0 peak_rss_mb=33.3
+
+rc=0
+CMD score_sse wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/uniform_n1048576.sorted.f64 16 rc=0 elapsed=0.920
+setting search strategy to: 1
+SSE=341.65774420214751 n=1048576 k=16 D=1048576 k_eff=16 lib_cost=341.65774420288028 peak_rss_mb=109.7
+CELL method=wilber k=16 n=1048576 D=1048576 status=ok sse=341.65774420214751 lib_cost=341.65774420288028 k_eff=16 peak_rss_mb=109.7
+CMD /opt/homebrew/bin/Rscript /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/run/ckmeans_cell.R /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/uniform_n1048576.sorted.f64 16 linear 1 3 1 /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/uniform_n1048576_k16_sorted.bounds rc=0 elapsed=2.719
+CELL method=Ckmeans.1d.dp k=16 n=1048576 D=1048576 status=ok ckmeans_method=linear version=4.3.6 sorted=1 post_s=0.641000000 time_min_s=0.640000000 time_max_s=0.644000000 tot_withinss=341.65774420216559 k_eff=16 warm=1 reps=3
+CMD /opt/homebrew/bin/Rscript /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/run/ckmeans_cell.R /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/data/synth/uniform_n1048576.f64 16 linear 1 3 0 /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/uniform_n1048576_k16_raw.bounds rc=0 elapsed=3.107
+CELL method=Ckmeans.1d.dp k=16 n=1048576 D=1048576 status=ok ckmeans_method=linear version=4.3.6 sorted=0 post_s=0.740000000 time_min_s=0.734000000 time_max_s=0.742000000 tot_withinss=341.65774420216559 k_eff=16 warm=1 reps=3
+CMD score_sse wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/uniform_n1048576.sorted.f64 128 rc=0 elapsed=0.128
+setting search strategy to: 1
+SSE=5.323110437892824 n=1048576 k=128 D=1048576 k_eff=128 lib_cost=5.3231104383511134 peak_rss_mb=59.2
+CELL method=wilber k=128 n=1048576 D=1048576 status=ok sse=5.323110437892824 lib_cost=5.3231104383511134 k_eff=128 peak_rss_mb=59.2
+CMD /opt/homebrew/bin/Rscript /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/run/ckmeans_cell.R /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/uniform_n1048576.sorted.f64 128 linear 1 3 1 /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/uniform_n1048576_k128_sorted.bounds rc=0 elapsed=22.260
+CELL method=Ckmeans.1d.dp k=128 n=1048576 D=1048576 status=ok ckmeans_method=linear version=4.3.6 sorted=1 post_s=5.606000000 time_min_s=5.427000000 time_max_s=5.611000000 tot_withinss=5.3231104378928267 k_eff=128 warm=1 reps=3
+CMD /opt/homebrew/bin/Rscript /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/run/ckmeans_cell.R /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/data/synth/uniform_n1048576.f64 128 linear 1 3 0 /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/uniform_n1048576_k128_raw.bounds rc=0 elapsed=22.609
+CELL method=Ckmeans.1d.dp k=128 n=1048576 D=1048576 status=ok ckmeans_method=linear version=4.3.6 sorted=0 post_s=5.616000000 time_min_s=5.512000000 time_max_s=5.660000000 tot_withinss=5.3231104378928267 k_eff=128 warm=1 reps=3
+CMD /opt/homebrew/bin/Rscript /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/run/ckmeans_cell.R /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/uniform_n1048576.sorted.f64 512 linear 1 3 1 /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/uniform_n1048576_k512_sorted.bounds rc=0 elapsed=86.949
+CELL method=Ckmeans.1d.dp k=512 n=1048576 D=1048576 status=ok ckmeans_method=linear version=4.3.6 sorted=1 post_s=21.725000000 time_min_s=21.614000000 time_max_s=21.992000000 tot_withinss=0.33055216343019195 k_eff=512 warm=1 reps=3
+CMD /opt/homebrew/bin/Rscript /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/run/ckmeans_cell.R /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/data/synth/uniform_n1048576.f64 512 linear 1 3 0 /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/uniform_n1048576_k512_raw.bounds rc=0 elapsed=88.398
+CELL method=Ckmeans.1d.dp k=512 n=1048576 D=1048576 status=ok ckmeans_method=linear version=4.3.6 sorted=0 post_s=22.085000000 time_min_s=21.817000000 time_max_s=22.456000000 tot_withinss=0.33055216343019195 k_eff=512 warm=1 reps=3
+CELL dataset=normal_n1048576 method=sort k=0 M=0 n=1048576 D=1048576 Dprime=1048576 status=ok sort_s=0.061741 post_s=0 peak_rss_mb=25.2
+
+rc=0
+CMD score_sse wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/normal_n1048576.sorted.f64 16 rc=0 elapsed=0.495
+setting search strategy to: 1
+SSE=9977.0699521722599 n=1048576 k=16 D=1048576 k_eff=16 lib_cost=9977.0699521898678 peak_rss_mb=139.5
+CELL method=wilber k=16 n=1048576 D=1048576 status=ok sse=9977.0699521722599 lib_cost=9977.0699521898678 k_eff=16 peak_rss_mb=139.5
+CMD /opt/homebrew/bin/Rscript /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/run/ckmeans_cell.R /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/normal_n1048576.sorted.f64 16 linear 1 3 1 /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/normal_n1048576_k16_sorted.bounds rc=0 elapsed=2.807
+CELL method=Ckmeans.1d.dp k=16 n=1048576 D=1048576 status=ok ckmeans_method=linear version=4.3.6 sorted=1 post_s=0.661000000 time_min_s=0.660000000 time_max_s=0.662000000 tot_withinss=9977.0699521720308 k_eff=16 warm=1 reps=3
+CMD /opt/homebrew/bin/Rscript /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/run/ckmeans_cell.R /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/data/synth/normal_n1048576.f64 16 linear 1 3 0 /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/normal_n1048576_k16_raw.bounds rc=0 elapsed=3.209
+CELL method=Ckmeans.1d.dp k=16 n=1048576 D=1048576 status=ok ckmeans_method=linear version=4.3.6 sorted=0 post_s=0.751000000 time_min_s=0.751000000 time_max_s=0.769000000 tot_withinss=9977.0699521720308 k_eff=16 warm=1 reps=3
+CMD score_sse wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/normal_n1048576.sorted.f64 128 rc=0 elapsed=1.047
+setting search strategy to: 1
+SSE=169.68582635562049 n=1048576 k=128 D=1048576 k_eff=128 lib_cost=169.68582637479304 peak_rss_mb=92.0
+CELL method=wilber k=128 n=1048576 D=1048576 status=ok sse=169.68582635562049 lib_cost=169.68582637479304 k_eff=128 peak_rss_mb=92.0
+CMD /opt/homebrew/bin/Rscript /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/run/ckmeans_cell.R /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/normal_n1048576.sorted.f64 128 linear 1 3 1 /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/normal_n1048576_k128_sorted.bounds rc=0 elapsed=22.595
+CELL method=Ckmeans.1d.dp k=128 n=1048576 D=1048576 status=ok ckmeans_method=linear version=4.3.6 sorted=1 post_s=5.613000000 time_min_s=5.528000000 time_max_s=5.629000000 tot_withinss=169.68582635562785 k_eff=128 warm=1 reps=3
+CMD /opt/homebrew/bin/Rscript /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/run/ckmeans_cell.R /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/data/synth/normal_n1048576.f64 128 linear 1 3 0 /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/normal_n1048576_k128_raw.bounds rc=0 elapsed=22.992
+CELL method=Ckmeans.1d.dp k=128 n=1048576 D=1048576 status=ok ckmeans_method=linear version=4.3.6 sorted=0 post_s=5.656000000 time_min_s=5.607000000 time_max_s=5.894000000 tot_withinss=169.68582635562785 k_eff=128 warm=1 reps=3
+CMD /opt/homebrew/bin/Rscript /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/run/ckmeans_cell.R /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/normal_n1048576.sorted.f64 512 linear 1 3 1 /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/normal_n1048576_k512_sorted.bounds rc=0 elapsed=87.929
+CELL method=Ckmeans.1d.dp k=512 n=1048576 D=1048576 status=ok ckmeans_method=linear version=4.3.6 sorted=1 post_s=22.052000000 time_min_s=21.521000000 time_max_s=22.402000000 tot_withinss=10.518922192744608 k_eff=512 warm=1 reps=3
+CMD /opt/homebrew/bin/Rscript /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/run/ckmeans_cell.R /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/data/synth/normal_n1048576.f64 512 linear 1 3 0 /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/normal_n1048576_k512_raw.bounds rc=0 elapsed=89.208
+CELL method=Ckmeans.1d.dp k=512 n=1048576 D=1048576 status=ok ckmeans_method=linear version=4.3.6 sorted=0 post_s=22.244000000 time_min_s=21.951000000 time_max_s=22.797000000 tot_withinss=10.518922192744608 k_eff=512 warm=1 reps=3
+CELL dataset=lognormal_n1048576 method=sort k=0 M=0 n=1048576 D=1048576 Dprime=1048576 status=ok sort_s=0.061754 post_s=0 peak_rss_mb=25.2
+
+rc=0
+CMD score_sse wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/lognormal_n1048576.sorted.f64 16 rc=0 elapsed=0.742
+setting search strategy to: 1
+SSE=80546.672101487129 n=1048576 k=16 D=1048576 k_eff=16 lib_cost=80546.672101443284 peak_rss_mb=109.3
+CELL method=wilber k=16 n=1048576 D=1048576 status=ok sse=80546.672101487129 lib_cost=80546.672101443284 k_eff=16 peak_rss_mb=109.3
+CMD /opt/homebrew/bin/Rscript /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/run/ckmeans_cell.R /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/lognormal_n1048576.sorted.f64 16 linear 1 3 1 /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/lognormal_n1048576_k16_sorted.bounds rc=0 elapsed=2.991
+CELL method=Ckmeans.1d.dp k=16 n=1048576 D=1048576 status=ok ckmeans_method=linear version=4.3.6 sorted=1 post_s=0.705000000 time_min_s=0.704000000 time_max_s=0.721000000 tot_withinss=80546.672101486518 k_eff=16 warm=1 reps=3
+CMD /opt/homebrew/bin/Rscript /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/run/ckmeans_cell.R /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/data/synth/lognormal_n1048576.f64 16 linear 1 3 0 /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/lognormal_n1048576_k16_raw.bounds rc=0 elapsed=3.383
+CELL method=Ckmeans.1d.dp k=16 n=1048576 D=1048576 status=ok ckmeans_method=linear version=4.3.6 sorted=0 post_s=0.798000000 time_min_s=0.796000000 time_max_s=0.814000000 tot_withinss=80546.672101486518 k_eff=16 warm=1 reps=3
+CMD score_sse wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/lognormal_n1048576.sorted.f64 128 rc=0 elapsed=1.238
+setting search strategy to: 1
+SSE=1018.5033223857903 n=1048576 k=128 D=1048576 k_eff=128 lib_cost=1018.5033223309714 peak_rss_mb=88.5
+CELL method=wilber k=128 n=1048576 D=1048576 status=ok sse=1018.5033223857903 lib_cost=1018.5033223309714 k_eff=128 peak_rss_mb=88.5
+CMD /opt/homebrew/bin/Rscript /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/run/ckmeans_cell.R /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/lognormal_n1048576.sorted.f64 128 linear 1 3 1 /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/lognormal_n1048576_k128_sorted.bounds rc=0 elapsed=22.781
+CELL method=Ckmeans.1d.dp k=128 n=1048576 D=1048576 status=ok ckmeans_method=linear version=4.3.6 sorted=1 post_s=5.660000000 time_min_s=5.569000000 time_max_s=5.686000000 tot_withinss=1018.5033223857832 k_eff=128 warm=1 reps=3
+CMD /opt/homebrew/bin/Rscript /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/run/ckmeans_cell.R /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/data/synth/lognormal_n1048576.f64 128 linear 1 3 0 /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/lognormal_n1048576_k128_raw.bounds rc=0 elapsed=23.368
+CELL method=Ckmeans.1d.dp k=128 n=1048576 D=1048576 status=ok ckmeans_method=linear version=4.3.6 sorted=0 post_s=5.762000000 time_min_s=5.740000000 time_max_s=5.877000000 tot_withinss=1018.5033223857832 k_eff=128 warm=1 reps=3
+CMD /opt/homebrew/bin/Rscript /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/run/ckmeans_cell.R /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/lognormal_n1048576.sorted.f64 512 linear 1 3 1 /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/lognormal_n1048576_k512_sorted.bounds rc=0 elapsed=88.464
+CELL method=Ckmeans.1d.dp k=512 n=1048576 D=1048576 status=ok ckmeans_method=linear version=4.3.6 sorted=1 post_s=22.088000000 time_min_s=21.998000000 time_max_s=22.151000000 tot_withinss=55.074978229705565 k_eff=512 warm=1 reps=3
+CMD /opt/homebrew/bin/Rscript /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/run/ckmeans_cell.R /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/data/synth/lognormal_n1048576.f64 512 linear 1 3 0 /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/lognormal_n1048576_k512_raw.bounds rc=0 elapsed=87.986
+CELL method=Ckmeans.1d.dp k=512 n=1048576 D=1048576 status=ok ckmeans_method=linear version=4.3.6 sorted=0 post_s=21.900000000 time_min_s=21.661000000 time_max_s=22.339000000 tot_withinss=55.074978229705565 k_eff=512 warm=1 reps=3
+CELL dataset=uniform_n8388608 method=sort k=0 M=0 n=8388608 D=8388608 Dprime=8388608 status=ok sort_s=0.569724 post_s=0 peak_rss_mb=193.2
+
+rc=0
+CMD score_sse wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/uniform_n8388608.sorted.f64 16 rc=0 elapsed=6.961
+setting search strategy to: 1
+SSE=2730.5681001256753 n=8388608 k=16 D=8388608 k_eff=16 lib_cost=2730.568100521346 peak_rss_mb=819.3
+CELL method=wilber k=16 n=8388608 D=8388608 status=ok sse=2730.5681001256753 lib_cost=2730.568100521346 k_eff=16 peak_rss_mb=819.3
+CMD /opt/homebrew/bin/Rscript /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/run/ckmeans_cell.R /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/uniform_n8388608.sorted.f64 16 linear 1 3 1 /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/uniform_n8388608_k16_sorted.bounds rc=0 elapsed=22.572
+CELL method=Ckmeans.1d.dp k=16 n=8388608 D=8388608 status=ok ckmeans_method=linear version=4.3.6 sorted=1 post_s=5.541000000 time_min_s=5.530000000 time_max_s=5.567000000 tot_withinss=2730.5681001256871 k_eff=16 warm=1 reps=3
+CMD /opt/homebrew/bin/Rscript /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/run/ckmeans_cell.R /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/data/synth/uniform_n8388608.f64 16 linear 1 3 0 /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/uniform_n8388608_k16_raw.bounds rc=0 elapsed=26.759
+CELL method=Ckmeans.1d.dp k=16 n=8388608 D=8388608 status=ok ckmeans_method=linear version=4.3.6 sorted=0 post_s=6.534000000 time_min_s=6.527000000 time_max_s=6.569000000 tot_withinss=2730.5681001256871 k_eff=16 warm=1 reps=3
+CMD score_sse wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/uniform_n8388608.sorted.f64 128 rc=0 elapsed=8.722
+setting search strategy to: 1
+SSE=42.652492655420112 n=8388608 k=128 D=8388608 k_eff=128 lib_cost=42.652493048948344 peak_rss_mb=718.3
+CELL method=wilber k=128 n=8388608 D=8388608 status=ok sse=42.652492655420112 lib_cost=42.652493048948344 k_eff=128 peak_rss_mb=718.3
+CMD /opt/homebrew/bin/Rscript /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/run/ckmeans_cell.R /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/uniform_n8388608.sorted.f64 128 linear 1 3 1 /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/uniform_n8388608_k128_sorted.bounds rc=0 elapsed=184.233
+CELL method=Ckmeans.1d.dp k=128 n=8388608 D=8388608 status=ok ckmeans_method=linear version=4.3.6 sorted=1 post_s=45.910000000 time_min_s=45.863000000 time_max_s=46.044000000 tot_withinss=42.652492655421121 k_eff=128 warm=1 reps=3
+CMD /opt/homebrew/bin/Rscript /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/run/ckmeans_cell.R /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/data/synth/uniform_n8388608.f64 128 linear 1 3 0 /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/uniform_n8388608_k128_raw.bounds rc=0 elapsed=186.655
+CELL method=Ckmeans.1d.dp k=128 n=8388608 D=8388608 status=ok ckmeans_method=linear version=4.3.6 sorted=0 post_s=46.389000000 time_min_s=46.379000000 time_max_s=46.436000000 tot_withinss=42.652492655421121 k_eff=128 warm=1 reps=3
+CELL dataset=normal_n8388608 method=sort k=0 M=0 n=8388608 D=8388608 Dprime=8388608 status=ok sort_s=0.573278 post_s=0 peak_rss_mb=193.3
+
+rc=0
+CMD score_sse wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/normal_n8388608.sorted.f64 16 rc=0 elapsed=4.864
+setting search strategy to: 1
+SSE=79694.918479808824 n=8388608 k=16 D=8388608 k_eff=16 lib_cost=79694.918480366978 peak_rss_mb=781.7
+CELL method=wilber k=16 n=8388608 D=8388608 status=ok sse=79694.918479808824 lib_cost=79694.918480366978 k_eff=16 peak_rss_mb=781.7
+CMD /opt/homebrew/bin/Rscript /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/run/ckmeans_cell.R /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/normal_n8388608.sorted.f64 16 linear 1 3 1 /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/normal_n8388608_k16_sorted.bounds rc=0 elapsed=22.690
+CELL method=Ckmeans.1d.dp k=16 n=8388608 D=8388608 status=ok ckmeans_method=linear version=4.3.6 sorted=1 post_s=5.574000000 time_min_s=5.557000000 time_max_s=5.589000000 tot_withinss=79694.918479808955 k_eff=16 warm=1 reps=3
+CMD /opt/homebrew/bin/Rscript /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/run/ckmeans_cell.R /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/data/synth/normal_n8388608.f64 16 linear 1 3 0 /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/normal_n8388608_k16_raw.bounds rc=0 elapsed=26.861
+CELL method=Ckmeans.1d.dp k=16 n=8388608 D=8388608 status=ok ckmeans_method=linear version=4.3.6 sorted=0 post_s=6.555000000 time_min_s=6.554000000 time_max_s=6.611000000 tot_withinss=79694.918479808955 k_eff=16 warm=1 reps=3
+CMD score_sse wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/normal_n8388608.sorted.f64 128 rc=0 elapsed=10.345
+setting search strategy to: 1
+SSE=1367.6134656283325 n=8388608 k=128 D=8388608 k_eff=128 lib_cost=1367.613466278751 peak_rss_mb=660.8
+CELL method=wilber k=128 n=8388608 D=8388608 status=ok sse=1367.6134656283325 lib_cost=1367.613466278751 k_eff=128 peak_rss_mb=660.8
+CMD /opt/homebrew/bin/Rscript /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/run/ckmeans_cell.R /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/normal_n8388608.sorted.f64 128 linear 1 3 1 /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/normal_n8388608_k128_sorted.bounds rc=0 elapsed=185.436
+CELL method=Ckmeans.1d.dp k=128 n=8388608 D=8388608 status=ok ckmeans_method=linear version=4.3.6 sorted=1 post_s=46.227000000 time_min_s=46.152000000 time_max_s=46.444000000 tot_withinss=1367.6134656283668 k_eff=128 warm=1 reps=3
+CMD /opt/homebrew/bin/Rscript /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/run/ckmeans_cell.R /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/data/synth/normal_n8388608.f64 128 linear 1 3 0 /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/normal_n8388608_k128_raw.bounds rc=0 elapsed=190.959
+CELL method=Ckmeans.1d.dp k=128 n=8388608 D=8388608 status=ok ckmeans_method=linear version=4.3.6 sorted=0 post_s=47.592000000 time_min_s=47.509000000 time_max_s=47.859000000 tot_withinss=1367.6134656283668 k_eff=128 warm=1 reps=3
+CELL dataset=lognormal_n8388608 method=sort k=0 M=0 n=8388608 D=8388608 Dprime=8388608 status=ok sort_s=0.567500 post_s=0 peak_rss_mb=193.3
+
+rc=0
+CMD score_sse wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/lognormal_n8388608.sorted.f64 16 rc=0 elapsed=6.103
+setting search strategy to: 1
+SSE=571018.05071721703 n=8388608 k=16 D=8388608 k_eff=16 lib_cost=571018.05070306652 peak_rss_mb=806.0
+CELL method=wilber k=16 n=8388608 D=8388608 status=ok sse=571018.05071721703 lib_cost=571018.05070306652 k_eff=16 peak_rss_mb=806.0
+CMD /opt/homebrew/bin/Rscript /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/run/ckmeans_cell.R /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/lognormal_n8388608.sorted.f64 16 linear 1 3 1 /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/lognormal_n8388608_k16_sorted.bounds rc=0 elapsed=24.112
+CELL method=Ckmeans.1d.dp k=16 n=8388608 D=8388608 status=ok ckmeans_method=linear version=4.3.6 sorted=1 post_s=5.942000000 time_min_s=5.895000000 time_max_s=5.955000000 tot_withinss=571018.05071721529 k_eff=16 warm=1 reps=3
+CMD /opt/homebrew/bin/Rscript /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/run/ckmeans_cell.R /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/data/synth/lognormal_n8388608.f64 16 linear 1 3 0 /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/lognormal_n8388608_k16_raw.bounds rc=0 elapsed=28.211
+CELL method=Ckmeans.1d.dp k=16 n=8388608 D=8388608 status=ok ckmeans_method=linear version=4.3.6 sorted=0 post_s=6.902000000 time_min_s=6.901000000 time_max_s=6.913000000 tot_withinss=571018.05071721529 k_eff=16 warm=1 reps=3
+CMD score_sse wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/lognormal_n8388608.sorted.f64 128 rc=0 elapsed=10.021
+setting search strategy to: 1
+SSE=8982.953123484398 n=8388608 k=128 D=8388608 k_eff=128 lib_cost=8982.9531097232339 peak_rss_mb=780.3
+CELL method=wilber k=128 n=8388608 D=8388608 status=ok sse=8982.953123484398 lib_cost=8982.9531097232339 k_eff=128 peak_rss_mb=780.3
+CMD /opt/homebrew/bin/Rscript /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/run/ckmeans_cell.R /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/lognormal_n8388608.sorted.f64 128 linear 1 3 1 /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/lognormal_n8388608_k128_sorted.bounds rc=0 elapsed=187.549
+CELL method=Ckmeans.1d.dp k=128 n=8388608 D=8388608 status=ok ckmeans_method=linear version=4.3.6 sorted=1 post_s=46.833000000 time_min_s=46.762000000 time_max_s=46.841000000 tot_withinss=8982.9531234846654 k_eff=128 warm=1 reps=3
+CMD /opt/homebrew/bin/Rscript /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/run/ckmeans_cell.R /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/data/synth/lognormal_n8388608.f64 128 linear 1 3 0 /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/lognormal_n8388608_k128_raw.bounds rc=0 elapsed=191.642
+CELL method=Ckmeans.1d.dp k=128 n=8388608 D=8388608 status=ok ckmeans_method=linear version=4.3.6 sorted=0 post_s=47.731000000 time_min_s=47.678000000 time_max_s=47.786000000 tot_withinss=8982.9531234846654 k_eff=128 warm=1 reps=3
+CELL dataset=audio method=sort k=0 M=0 n=8168256 D=7295677 Dprime=7295677 status=ok sort_s=0.501695 post_s=0 peak_rss_mb=188.2
+
+rc=0
+CMD score_sse wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/audio.sorted.f64 16 rc=0 elapsed=5.795
+setting search strategy to: 1
+SSE=2510.0998869344098 n=8168256 k=16 D=7295677 k_eff=16 lib_cost=2510.0998869381383 peak_rss_mb=701.9
+CELL method=wilber k=16 n=8168256 D=7295677 status=ok sse=2510.0998869344098 lib_cost=2510.0998869381383 k_eff=16 peak_rss_mb=702.0
+CMD /opt/homebrew/bin/Rscript /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/run/ckmeans_cell.R /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/audio.sorted.f64 16 linear 1 3 1 /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/audio_k16_sorted.bounds rc=0 elapsed=21.486
+CELL method=Ckmeans.1d.dp k=16 n=8168256 D=7295677 status=ok ckmeans_method=linear version=4.3.6 sorted=1 post_s=5.276000000 time_min_s=5.246000000 time_max_s=5.351000000 tot_withinss=2510.0998869345117 k_eff=16 warm=1 reps=3
+CMD /opt/homebrew/bin/Rscript /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/run/ckmeans_cell.R /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/audio.f64 16 linear 1 3 0 /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/audio_k16_raw.bounds rc=0 elapsed=25.397
+CELL method=Ckmeans.1d.dp k=16 n=8168256 D=7295677 status=ok ckmeans_method=linear version=4.3.6 sorted=0 post_s=6.198000000 time_min_s=6.171000000 time_max_s=6.210000000 tot_withinss=2510.0998869345117 k_eff=16 warm=1 reps=3
+CMD score_sse wilber /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/audio.sorted.f64 128 rc=0 elapsed=9.344
+setting search strategy to: 1
+SSE=41.673294219725094 n=8168256 k=128 D=7295677 k_eff=128 lib_cost=41.67329422198577 peak_rss_mb=813.6
+CELL method=wilber k=128 n=8168256 D=7295677 status=ok sse=41.673294219725094 lib_cost=41.67329422198577 k_eff=128 peak_rss_mb=813.6
+CMD /opt/homebrew/bin/Rscript /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/run/ckmeans_cell.R /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/audio.sorted.f64 128 linear 1 3 1 /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/audio_k128_sorted.bounds rc=0 elapsed=182.723
+CELL method=Ckmeans.1d.dp k=128 n=8168256 D=7295677 status=ok ckmeans_method=linear version=4.3.6 sorted=1 post_s=45.733000000 time_min_s=45.476000000 time_max_s=45.873000000 tot_withinss=41.673294219727097 k_eff=128 warm=1 reps=3
+CMD /opt/homebrew/bin/Rscript /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/run/ckmeans_cell.R /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/audio.f64 128 linear 1 3 0 /Users/sriram/Desktop/Learning/Lex/run1/bot_v11_ckmeans_matched_pack/work/audio_k128_raw.bounds rc=0 elapsed=185.077
+CELL method=Ckmeans.1d.dp k=128 n=8168256 D=7295677 status=ok ckmeans_method=linear version=4.3.6 sorted=0 post_s=46.115000000 time_min_s=46.099000000 time_max_s=46.122000000 tot_withinss=41.673294219727097 k_eff=128 warm=1 reps=3
