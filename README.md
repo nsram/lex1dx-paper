@@ -1,8 +1,8 @@
 # lex1dx-paper
 
 Replication material for the paper *LEX: Fast scalar quantization by grouping
-and local exchanges* by N. Sriram (draft dated 25 November 2026, file prefix
-`lex1dx_paper_2026-11-25_r5`, with supplement
+and local exchanges* by N. Sriram (draft dated 27 November 2026, file prefix
+`lex1dx_paper_2026-11-27_r6`, with supplement
 `lex1dx_supplement_2026-11-25_r5`).
 
 The paper preprint is at Zenodo, https://doi.org/10.5281/zenodo.24543220.
@@ -21,11 +21,12 @@ number.
 
 | Path | What it holds |
 |---|---|
-| `paper/figs/` | The eight result figures used in the main paper and the supplement. |
+| `paper/figs/` | The eight figures used in the r6 main paper and the r5 supplement, plus the superseded r5 Figure 2 (`v4_seven.pdf`). |
 | `paper/tables/` | The eight generated table fragments used in the main paper and the supplement. |
-| `scripts/v4_figs_tables.py` | Rebuilds those figures and tables from the packaged CSVs. |
+| `scripts/v4_figs_tables.py` | Rebuilds the result figures and tables, and the two r5 schematics, from the packaged CSVs. |
+| `scripts/v5_seven.py` | Redraws r6 Figure 2 (`paper/figs/v5_seven.pdf`). |
 | `scripts/verify_examples.py` | Rechecks the exact-fraction worked examples in the paper. |
-| `run/` | Wrappers: `figs_tables.sh` and `verify_examples.sh`. |
+| `run/` | Wrappers: `figs_tables.sh`, `verify_examples.sh`, and `v5_seven.sh`. |
 | `results/` | Output of the Mac runs used in the paper, plus two unused or superseded runs kept for provenance (see below). |
 | `packs/` | The Mac packs that produced those outputs. Each pack is self-contained: frozen lex1d, vendors, drivers, and `run/` scripts. Large generated inputs are not included; each pack rebuilds them. |
 | `requirements.txt` | Python packages for `bash run/figs_tables.sh`. |
@@ -70,10 +71,25 @@ bash run/figs_tables.sh
 
 That overwrites `paper/figs/v4_*.pdf` and `paper/tables/v4_*.tex` from the
 packaged CSVs. It does not read anything outside this repository. The
-regenerated tables match the packaged fragments byte for byte. Seven of the
-eight figures match after PDF date and ID fields are ignored. `v4_seven.pdf`
-comes out slightly smaller under the script's current figsize (3.25 by
-2.85 in) than the packaged file, which is the snapshot used in the paper.
+regenerated tables match the packaged fragments byte for byte. Of the
+seven result figures plus the r5 schematic `v4_pipeline.pdf`, all match
+after PDF date and ID fields are ignored. `v4_seven.pdf` is the superseded
+r5 Figure 2; it comes out slightly smaller under the script's current
+figsize (3.25 by 2.85 in) than the packaged file. The r6 draft does not
+use it.
+
+To redraw r6 Figure 2:
+
+```
+bash run/v5_seven.sh
+```
+
+That overwrites `paper/figs/v5_seven.pdf`. The packaged file is the
+snapshot used in the r6 draft. A regenerated PDF may differ in date and
+ID metadata only; the arithmetic asserts (SSE 223/6 before the paired
+move and 92/3 after) run every time and must pass. Pass `--preview` to
+`scripts/v5_seven.py` to also write a captioned PNG; that preview is not
+a paper artifact.
 
 To recheck the exact-fraction pipeline and Refine examples:
 
@@ -114,15 +130,18 @@ to rebuild the figures and tables, and that output is in
 ## Figure and table map
 
 All result figures and tables are written by `scripts/v4_figs_tables.py`.
-Schematic figures (`v4_pipeline.pdf`, `v4_seven.pdf`) use only the exact
-fractions checked by `scripts/verify_examples.py`.
+The pipeline schematic (`v4_pipeline.pdf`) is written there as well.
+r6 Figure 2 (`v5_seven.pdf`) is written by `scripts/v5_seven.py`. Both
+schematics use only the exact fractions checked by
+`scripts/verify_examples.py`. `v4_seven.pdf` is the superseded r5 Figure 2,
+still produced by `v4_figs_tables.py` and kept for provenance.
 
 Main paper:
 
 | Paper object | File | Source CSVs and rows |
 |---|---|---|
 | Figure 1 (pipeline) | `paper/figs/v4_pipeline.pdf` | Worked example, no CSV. |
-| Figure 2 (Refine moves) | `paper/figs/v4_seven.pdf` | Worked example, no CSV. |
+| Figure 2 (Refine moves) | `paper/figs/v5_seven.pdf` | Worked example, no CSV. Drawn by `scripts/v5_seven.py`. |
 | Figure 3 (max REE vs N) | `paper/figs/v4_ree_max.pdf` | v8 `tuned` and `sig5` at k ∈ {64,256,512}; precision-grouped fill-in at k ∈ {16,32,128} from kgrid_lex_fix, scored against kgrid_fill wilber SSE*. Synthetics only. |
 | Figure 4 (time and RSS vs N at k=512) | `paper/figs/v4_time_rss_k512.pdf` | v8 `wilber`, `tuned`, `sig5`, and `sort`, all at k=512. |
 | Table 3 (headline, k=512) | `paper/tables/v4_headline_k512.tex` | Upper block, four large inputs: exact reference and grouped exact from v9 `wilber_pristine` and `sig5exact`; full-precision LEX from v8 `tuned`; precision-grouped LEX from v9 experiment B `sig5`. Lower block, two GPT-2 matrices: v8 `wilber`, `tuned`, and `sig5`. Their baseline is the weighted table-free solver, marked † in the table. |
